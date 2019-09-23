@@ -1,2 +1,2 @@
-# Basic-Algothm
+# Basic-Algorithm
 Lecture Assignments/Examples and Answers
