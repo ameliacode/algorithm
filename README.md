@@ -1,2 +1,2 @@
-ALgorithm
+Algorithm
 =========
