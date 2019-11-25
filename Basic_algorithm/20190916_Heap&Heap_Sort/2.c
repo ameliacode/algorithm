@@ -75,4 +75,4 @@ void buildHeap() {
 	for (i = n / 2; i >= 1; i--) {
 		downHeap(i);
 	}
-}
+}//copyright github @ameliacode 2019
