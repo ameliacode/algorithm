@@ -119,4 +119,4 @@ void printHeap(int *A, int last) {
 		printf(" %d", A[i]);
 	}
 	printf("\n");
-}
+}//copyright github @ameliacode 2019
