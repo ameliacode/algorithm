@@ -360,3 +360,4 @@ void searchAndRepairAfterRemoval(treeNode *w) {
 	return;
 }
 
+//copyright github @ameliacode 2019
