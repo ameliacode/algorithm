@@ -61,7 +61,7 @@ int find_pivot_index(int *L, int l, int r) {
 	}
 	median = random_index[1];*/
 
-	//±»ÀÌ pivotÀ» µû·Î ¼³Á¤ÇÒ ÇÊ¿ä´Â ¾ø´Ù..(l,r »çÀÌ¿¡¼­ ¾Æ¹« ¼ıÀÚ³ª °í¸£¸é µÇ±â ¶§¹®..) -> ÃÖ¾ÇÀÎ °æ¿ì O(n^2)ÀÇ °æ¿ìµµ ¹ß»ıÇÒ ¼öµµ
+	//êµ³ì´ pivotì„ ë”°ë¡œ ì„¤ì •í•  í•„ìš”ëŠ” ì—†ë‹¤..(l,r ì‚¬ì´ì—ì„œ ì•„ë¬´ ìˆ«ìë‚˜ ê³ ë¥´ë©´ ë˜ê¸° ë•Œë¬¸..) -> ìµœì•…ì¸ ê²½ìš° O(n^2)ì˜ ê²½ìš°ë„ ë°œìƒí•  ìˆ˜ë„
 	median = l;
 	return median;
 }
@@ -112,3 +112,4 @@ void printArray(int *L) {
 	}
 	printf("\n");
 }
+//copyright github @ameliacode 2019
