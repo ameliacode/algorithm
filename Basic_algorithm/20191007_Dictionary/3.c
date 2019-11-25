@@ -37,4 +37,4 @@ int main() {
 	printf(" %d", findElement(A, B, str));
 
 	return 0;
-}
+}//copyright github @ameliacode 2019
