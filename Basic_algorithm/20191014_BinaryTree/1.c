@@ -190,7 +190,7 @@ void expandExternal(treeNode *w) {
 
 treeNode* reduceExternal(treeNode *z) {
 
-	treeNode *w = z->parent;	//ÀÌ ºÎºÐÀÌ ¾È µÊ..
+	treeNode *w = z->parent;	//Ã€ÃŒ ÂºÃŽÂºÃÃ€ÃŒ Â¾Ãˆ ÂµÃŠ..
 	treeNode *zs = sibling(z);
 	treeNode *g;
 
@@ -218,4 +218,4 @@ treeNode* sibling(treeNode *w) {
 	else {
 		return w->parent->LChild;
 	}
-}
+}//copyright github @ameliacode 2019
