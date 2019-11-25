@@ -36,4 +36,4 @@ int main()
 	inPlaceInsertionSort(a, N);
 
 	return 0;
-}
+}//copyright github @ameliacode 2019
