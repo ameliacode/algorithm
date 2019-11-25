@@ -73,4 +73,4 @@ int main(void) {
 	printArray(L);
 
 	return 0;
-}
+}//copyright github @ameliacode 2019
