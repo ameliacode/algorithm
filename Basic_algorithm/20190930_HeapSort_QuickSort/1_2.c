@@ -183,4 +183,4 @@ DIV* partition(Header *L, int k) {
 	div->L2 = L2;
 
 	return div;
-}
+}//copyright github @ameliacode 2019
