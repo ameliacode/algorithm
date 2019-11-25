@@ -199,7 +199,7 @@ void expandExternal(treeNode *w) {
 
 treeNode* reduceExternal(treeNode *z) {
 
-	treeNode *w = z->parent;	//ÀÌ ºÎºÐÀÌ ¾È µÊ..
+	treeNode *w = z->parent;	//Ã€ÃŒ ÂºÃŽÂºÃÃ€ÃŒ Â¾Ãˆ ÂµÃŠ..
 	treeNode *zs = sibling(z);
 	treeNode *g;
 
@@ -334,4 +334,4 @@ treeNode *restructure(treeNode *x) {
 int isRoot(treeNode *z) {
 	if (z->parent == NULL) return 1;
 	else return 0;
-}
+}//copyright github @ameliacode 2019
