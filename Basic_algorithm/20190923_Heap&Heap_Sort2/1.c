@@ -90,3 +90,4 @@ void buildHeap() {
 		downHeap(i,n);
 	}
 }
+//copyright github @ameliacode 2019
