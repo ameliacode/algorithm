@@ -3,6 +3,10 @@ Algorithm
 Personal Repository for Algorithm study
 
 ## Index
+### Baekjoon
+2017.08 ~
+Online algorithm problem solutions 
+Visit [Baekjoon, Online Judge](https://www.acmicpc.net) for more info
 ### Basic Algorithm
 2019.09 ~ 2019.12  
 Basic Algorithm lecture related material and assignments  
