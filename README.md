@@ -19,7 +19,7 @@ Scored: B+
 Basic Data Structure lecture related material and assignments  
 Scored: A0
 
-### Programemrs | C++
+### Programmers | C++
 2020.10 ~
 Online algorithm problem solutions for tests  
 Scored: Level 1
