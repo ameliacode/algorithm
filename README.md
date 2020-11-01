@@ -6,7 +6,10 @@ Personal Repository for Algorithm study
 ### Baekjoon | C/C++
 2017.08 ~  
 Online algorithm problem solutions   
-Visit [Baekjoon, Online Judge](https://www.acmicpc.net) for more info  
+Visit [Baekjoon, Online Judge](https://www.acmicpc.net) for more info   
+Online Ranking: 9400th  
+University Ranking: 84th    
+
 ### Basic Algorithm | C
 2019.09 ~ 2019.12  
 Basic Algorithm lecture related material and assignments   
