@@ -20,6 +20,6 @@ Basic Data Structure lecture related material and assignments
 * Scored: A0
 
 ### Programmers | C++
-2020.10 ~
+2020.10 ~  
 Online algorithm problem solutions for tests  
 * Scored: Level 1
