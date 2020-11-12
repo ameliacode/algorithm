@@ -7,8 +7,8 @@ Personal Repository for Algorithm study
 2017.08 ~  
 Online algorithm problem solutions   
 Visit [Baekjoon, Online Judge](https://www.acmicpc.net) for more info   
-* Online Ranking: 9400th  
-* University Ranking: 84th    
+* Online Ranking: 9300th  
+* University Ranking: 82th    
 
 ### Basic Algorithm | C
 2019.09 ~ 2019.12  
