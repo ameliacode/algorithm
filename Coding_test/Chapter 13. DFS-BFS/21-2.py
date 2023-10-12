@@ -1,38 +1,52 @@
-def rotate_a_matrix_by_90_degree(key):
-    n = len(key)
-    result = [[0] * n for _ in range(n)] 
+from collections import deque
+
+n,l,r = map(int ,input().split())
+
+graph = []
+for _ in range(n):
+    graph.append(list(map(int, input().split())))
+
+dx = [-1,0,1,0]
+dy = [1,0,-1,0]
+
+def check_union(x,y,index):
+    united = []
+    united.append((x,y))
+
+    q = deque(united)
+    q.append((x,y))
+    union[x][y]=index
+    summary = graph[x][y]
+    count = 1
+    while q:
+        x,y = q.popleft()
+        for i in range(4):
+            nx = x + dx[i]
+            ny = y + dy[i]
+            if 0 <= nx < n and 0 <= ny < n and union[nx][ny] == -1:
+                if l <= abs(graph[nx][ny] - graph[x][y]) <= r:
+                    q.append((nx,ny))
+                    union[nx][ny] = index
+                    summary += graph[nx][ny]
+                    count += 1
+                    united.append((nx,ny))
+    
+    for i, j in united:
+        graph[i][j] = summary // count
+    return count
+
+total_count = 0
+while True:
+    union = [[-1]*n for _ in range(n)]
+    index = 0
     for i in range(n):
         for j in range(n):
-            result[j][n-i-1] = key[i][j]
-    return result
+            if union[i][j] == -1:
+                check_union(i,j,index)
+                index += 1
 
-def check(new_lock):
-    m = len(new_lock) // 3
-    for i in range(m, 2*m):
-        for j in range(m, 2*m):
-            if new_lock[i][j] != 1:
-                return False
-    return True
+        if index == n * n:
+            break
+        total_count += 1
 
-def solution(key, lock):
-    n = len(key)
-    m = len(lock)
-    new_lock = [[0]*(3*m) for _ in range(3*m)]
-    
-    for i in range(m,2*m):
-        for j in range(m,2*m):
-            new_lock[i][j] = lock[i - m][j - m]
-
-    for _ in range(4):
-        key = rotate_a_matrix_by_90_degree(key)
-        for y in range(2*m):
-            for x in range(2*m):
-                for i in range(n):
-                    for j in range(n):
-                        new_lock[i+y][j+x] += key[i][j]
-                if check(new_lock):
-                    return True
-                for i in range(n):
-                    for j in range(n):
-                        new_lock[i+y][j+x] -= key[i][j]
-    return False
+print(total_count)
