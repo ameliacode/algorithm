@@ -33,8 +33,7 @@ def process(x,y,index): # 인구이동
                 united.append((nx,ny))
     for i, j in united:
         graph[i][j] = summary // count
-    return count
-
+        
 total_count = 0
     
 while True:
