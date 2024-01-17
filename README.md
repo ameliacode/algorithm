@@ -11,5 +11,5 @@ Visit [Baekjoon, Online Judge](https://www.acmicpc.net) for more info
 ### Programmers | C++, Python
 2020.10 ~  
 Online algorithm problem solutions for tests  
-* Scored: Level 1
+* Scored: Level 2
 
