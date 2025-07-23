@@ -7,7 +7,7 @@ comb = []
 length = 1
 while length < N:
     for i in range(N):
-        comb.append(sum(coins[i:i+length]))
+        comb.append(sum(coins[i : i + length]))
     length += 1
 
 comb = list(set(sorted(comb)))

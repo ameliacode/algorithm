@@ -6,9 +6,9 @@ coins = list(map(int, input().split()))
 coins.sort()
 candidates = []
 
-for i in range(1, n+1):
+for i in range(1, n + 1):
     for j in list(combinations(coins, i)):
-        add = sum(list(j)) 
+        add = sum(list(j))
         candidates.append(add)
 
 idx = 1

@@ -7,5 +7,3 @@ if a == b:
     print("LUCKY")
 else:
     print("READY")
-
-

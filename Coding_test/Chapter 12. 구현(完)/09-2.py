@@ -6,16 +6,16 @@ def solution(s):
         prev = ""
         new_s = ""
         while idx < len(s) + length:
-            if s[idx:idx+length] == prev or len(prev) == 0:
+            if s[idx : idx + length] == prev or len(prev) == 0:
                 count += 1
             else:
                 if count >= 2:
-                    new_s += str(count)+prev
+                    new_s += str(count) + prev
                 else:
                     new_s += prev
                 count = 1
-            prev = s[idx:idx+length]
-            idx += length 
+            prev = s[idx : idx + length]
+            idx += length
         if len(new_s) < len(answer):
             answer = new_s
     return len(answer)
