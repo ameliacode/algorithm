@@ -1,5 +1,6 @@
-import sys
 import heapq
+import sys
+
 input = sys.stdin.readline
 
 n = int(input())
@@ -11,7 +12,7 @@ total = []
 while len(cards) != 1:
     a = heapq.heappop(cards)
     b = heapq.heappop(cards)
-    heapq.heappush(cards, a+b)
+    heapq.heappush(cards, a + b)
     total.append(a)
     total.append(b)
 

@@ -1,139 +1,173 @@
 [
     {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
         "label": "math",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "math",
         "description": "math",
         "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
-        "documentation": {}
-    },
-    {
-        "label": "deque",
-        "importPath": "collections",
-        "description": "collections",
-        "isExtraImport": true,
-        "detail": "collections",
         "documentation": {}
     },
     {
@@ -291,24 +325,6 @@
         "documentation": {}
     },
     {
-        "label": "heapq",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "heapq",
-        "description": "heapq",
-        "detail": "heapq",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "copy",
         "kind": 6,
         "isExtraImport": true,
@@ -447,6 +463,24 @@
         "documentation": {}
     },
     {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Baekjoon.10798",
+        "description": "Baekjoon.10798",
+        "peekOfCode": "data = deque()\nfor _ in range(5):\n    data.append(\"\".join(input().split()))\nanswer = \"\"\nwhile data:\n    s = data.popleft()\n    if len(s) > 0:\n        answer += s[0]\n        data.append(s[1:])\nprint(answer)",
+        "detail": "Baekjoon.10798",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.10798",
+        "description": "Baekjoon.10798",
+        "peekOfCode": "answer = \"\"\nwhile data:\n    s = data.popleft()\n    if len(s) > 0:\n        answer += s[0]\n        data.append(s[1:])\nprint(answer)",
+        "detail": "Baekjoon.10798",
+        "documentation": {}
+    },
+    {
         "label": "n",
         "kind": 5,
         "importPath": "Baekjoon.10807",
@@ -510,6 +544,24 @@
         "documentation": {}
     },
     {
+        "label": "chess",
+        "kind": 5,
+        "importPath": "Baekjoon.1100",
+        "description": "Baekjoon.1100",
+        "peekOfCode": "chess = []\nfor _ in range(8):\n    chess.append(input())\nanswer = 0\nfor i in range(8):\n    for j in range(8):\n        if (i + j) % 2 == 0 and chess[i][j] == \"F\":\n            answer += 1\nprint(answer)",
+        "detail": "Baekjoon.1100",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.1100",
+        "description": "Baekjoon.1100",
+        "peekOfCode": "answer = 0\nfor i in range(8):\n    for j in range(8):\n        if (i + j) % 2 == 0 and chess[i][j] == \"F\":\n            answer += 1\nprint(answer)",
+        "detail": "Baekjoon.1100",
+        "documentation": {}
+    },
+    {
         "label": "y",
         "kind": 5,
         "importPath": "Baekjoon.18108",
@@ -519,12 +571,66 @@
         "documentation": {}
     },
     {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Baekjoon.19532",
+        "description": "Baekjoon.19532",
+        "peekOfCode": "x = (c * e - b * f) / (a * e - b * d)\ny = (a * f - c * d) / (a * e - b * d)\nprint(int(x), int(y))",
+        "detail": "Baekjoon.19532",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Baekjoon.19532",
+        "description": "Baekjoon.19532",
+        "peekOfCode": "y = (a * f - c * d) / (a * e - b * d)\nprint(int(x), int(y))",
+        "detail": "Baekjoon.19532",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Baekjoon.2110",
+        "description": "Baekjoon.2110",
+        "peekOfCode": "data = []\nfor _ in range(n):\n    data.append(int(input()))\ndata.sort()",
+        "detail": "Baekjoon.2110",
+        "documentation": {}
+    },
+    {
         "label": "result",
         "kind": 5,
         "importPath": "Baekjoon.2480",
         "description": "Baekjoon.2480",
         "peekOfCode": "result = 0\nif a == b == c:\n    result = 10000 + 1000*a\nelif a != b and a!= c and b!=c:\n    result = 100*max(a,b,c)\nelse:\n    if a == b:\n        same = a\n    elif b == c:\n        same = b",
         "detail": "Baekjoon.2480",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "Baekjoon.25206",
+        "description": "Baekjoon.25206",
+        "peekOfCode": "scores = []\ntotal = []\ngrades = {\n    \"A+\": 4.5,\n    \"A0\": 4.0,\n    \"B+\": 3.5,\n    \"B0\": 3.0,\n    \"C+\": 2.5,\n    \"C0\": 2.0,\n    \"D+\": 1.5,",
+        "detail": "Baekjoon.25206",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Baekjoon.25206",
+        "description": "Baekjoon.25206",
+        "peekOfCode": "total = []\ngrades = {\n    \"A+\": 4.5,\n    \"A0\": 4.0,\n    \"B+\": 3.5,\n    \"B0\": 3.0,\n    \"C+\": 2.5,\n    \"C0\": 2.0,\n    \"D+\": 1.5,\n    \"D0\": 1.0,",
+        "detail": "Baekjoon.25206",
+        "documentation": {}
+    },
+    {
+        "label": "grades",
+        "kind": 5,
+        "importPath": "Baekjoon.25206",
+        "description": "Baekjoon.25206",
+        "peekOfCode": "grades = {\n    \"A+\": 4.5,\n    \"A0\": 4.0,\n    \"B+\": 3.5,\n    \"B0\": 3.0,\n    \"C+\": 2.5,\n    \"C0\": 2.0,\n    \"D+\": 1.5,\n    \"D0\": 1.0,\n    \"F\": 0.0,",
+        "detail": "Baekjoon.25206",
         "documentation": {}
     },
     {
@@ -591,6 +697,60 @@
         "documentation": {}
     },
     {
+        "label": "canvas",
+        "kind": 5,
+        "importPath": "Baekjoon.2563",
+        "description": "Baekjoon.2563",
+        "peekOfCode": "canvas = [[0] * 100 for _ in range(100)]\nn = int(input())\nfor _ in range(n):\n    x, y = map(int, input().split())\n    for i in range(x, x + 10):\n        for j in range(y, y + 10):\n            canvas[i][j] = 1\nresult = sum(sum(row) for row in canvas)\nprint(result)",
+        "detail": "Baekjoon.2563",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.2563",
+        "description": "Baekjoon.2563",
+        "peekOfCode": "n = int(input())\nfor _ in range(n):\n    x, y = map(int, input().split())\n    for i in range(x, x + 10):\n        for j in range(y, y + 10):\n            canvas[i][j] = 1\nresult = sum(sum(row) for row in canvas)\nprint(result)",
+        "detail": "Baekjoon.2563",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "Baekjoon.2563",
+        "description": "Baekjoon.2563",
+        "peekOfCode": "result = sum(sum(row) for row in canvas)\nprint(result)",
+        "detail": "Baekjoon.2563",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "Baekjoon.2566",
+        "description": "Baekjoon.2566",
+        "peekOfCode": "q = []\nfor i in range(9):\n    row = list(map(int, input().split()))\n    max_val = max(row)\n    max_idx = row.index(max_val)\n    if len(q) < 1:\n        heapq.heappush(q, (max_val, max_idx, i))\n    else:\n        prev_max, prev_col, prev_row = heapq.heappop(q)\n        if prev_max < max_val:",
+        "detail": "Baekjoon.2566",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Baekjoon.2738",
+        "description": "Baekjoon.2738",
+        "peekOfCode": "a = []\nb = []\nfor i in range(n):\n    row = list(map(int, input().split()))\n    a.append(row)\nfor i in range(n):\n    row = list(map(int, input().split()))\n    b.append(row)\nfor i in range(n):\n    for j in range(m):",
+        "detail": "Baekjoon.2738",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Baekjoon.2738",
+        "description": "Baekjoon.2738",
+        "peekOfCode": "b = []\nfor i in range(n):\n    row = list(map(int, input().split()))\n    a.append(row)\nfor i in range(n):\n    row = list(map(int, input().split()))\n    b.append(row)\nfor i in range(n):\n    for j in range(m):\n        print(a[i][j] + b[i][j], end=\" \")",
+        "detail": "Baekjoon.2738",
+        "documentation": {}
+    },
+    {
         "label": "s",
         "kind": 5,
         "importPath": "Baekjoon.27866",
@@ -606,6 +766,42 @@
         "description": "Baekjoon.27866",
         "peekOfCode": "i = int(input())\nprint(s[i-1])",
         "detail": "Baekjoon.27866",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.2903",
+        "description": "Baekjoon.2903",
+        "peekOfCode": "n = int(input())\nprint((2**n + 1) ** 2)",
+        "detail": "Baekjoon.2903",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Baekjoon.3003",
+        "description": "Baekjoon.3003",
+        "peekOfCode": "data = list(map(int, input().split()))\nchess = [1, 1, 2, 2, 2, 8]\nfor i in range(len(data)):\n    print(chess[i] - data[i], end=\" \")",
+        "detail": "Baekjoon.3003",
+        "documentation": {}
+    },
+    {
+        "label": "chess",
+        "kind": 5,
+        "importPath": "Baekjoon.3003",
+        "description": "Baekjoon.3003",
+        "peekOfCode": "chess = [1, 1, 2, 2, 2, 8]\nfor i in range(len(data)):\n    print(chess[i] - data[i], end=\" \")",
+        "detail": "Baekjoon.3003",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Baekjoon.5052",
+        "description": "Baekjoon.5052",
+        "peekOfCode": "t = int(input())\nfor _ in range(t):\n    n = int(input())\n    phone_numbers = [sys.stdin.readline().rstrip() for _ in range(n)]\n    phone_numbers.sort()\n    flag = False\n    for i in range(1, n):\n        if phone_numbers[i].startswith(phone_numbers[0]):\n            flag = True\n            break",
+        "detail": "Baekjoon.5052",
         "documentation": {}
     },
     {
@@ -1968,6 +2164,15 @@
         "documentation": {}
     },
     {
+        "label": "solution",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 11. 그리디(完).06-5",
+        "description": "Coding_test.Chapter 11. 그리디(完).06-5",
+        "peekOfCode": "def solution(food_times, k):\n    if sum(food_times) <= k:\n        return -1\n    length = len(food_times)\n    q = []\n    for i in range(length):\n        heapq.heappush(q, (food_times[i], i + 1))\n    sum_value = 0\n    previous = 0\n    while sum_value + (q[0][0] - previous) * length <= k:",
+        "detail": "Coding_test.Chapter 11. 그리디(完).06-5",
+        "documentation": {}
+    },
+    {
         "label": "N",
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).07-1",
@@ -2294,10 +2499,10 @@
     {
         "label": "solution",
         "kind": 2,
-        "importPath": "Coding_test.Chapter 12. 구현(完).09-3-best",
-        "description": "Coding_test.Chapter 12. 구현(完).09-3-best",
+        "importPath": "Coding_test.Chapter 12. 구현(完).09-3",
+        "description": "Coding_test.Chapter 12. 구현(完).09-3",
         "peekOfCode": "def solution(s):\n    answer = len(s)\n    for length in range(1, len(s)):\n        new_string = \"\"\n        prev = \"\"\n        count = 1\n        i = 0\n        while i <= len(s) + length:\n            now = s[i : i + length]\n            if prev == now:",
-        "detail": "Coding_test.Chapter 12. 구현(完).09-3-best",
+        "detail": "Coding_test.Chapter 12. 구현(完).09-3",
         "documentation": {}
     },
     {
@@ -2310,11 +2515,29 @@
         "documentation": {}
     },
     {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "description": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "peekOfCode": "s = input()\nanswer = len(s)\nfor length in range(1, len(s)):\n    new_string = \"\"\n    prev = \"\"\n    i = 0\n    count = 1\n    while i < len(s) + length:\n        now = s[i : i + length]\n        if prev == now:",
+        "detail": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "description": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "peekOfCode": "answer = len(s)\nfor length in range(1, len(s)):\n    new_string = \"\"\n    prev = \"\"\n    i = 0\n    count = 1\n    while i < len(s) + length:\n        now = s[i : i + length]\n        if prev == now:\n            count += 1",
+        "detail": "Coding_test.Chapter 12. 구현(完).09-5-best",
+        "documentation": {}
+    },
+    {
         "label": "rotate_a_matrix_by_90_degree",
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-1",
         "description": "Coding_test.Chapter 12. 구현(完).10-1",
-        "peekOfCode": "def rotate_a_matrix_by_90_degree(a):\n    n = len(a)\n    m = len(a[0])\n    result = [[0] * n for _ in range(m)]\n    for i in range(n):\n        for j in range(m):\n            result[j][n-i-1] = a[i][j]\n    return result\ndef check(new_lock):\n    lock_length = len(new_lock) // 3",
+        "peekOfCode": "def rotate_a_matrix_by_90_degree(a):\n    n = len(a)\n    m = len(a[0])\n    result = [[0] * n for _ in range(m)]\n    for i in range(n):\n        for j in range(m):\n            result[j][n - i - 1] = a[i][j]\n    return result\ndef check(new_lock):\n    lock_length = len(new_lock) // 3",
         "detail": "Coding_test.Chapter 12. 구현(完).10-1",
         "documentation": {}
     },
@@ -2332,7 +2555,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-1",
         "description": "Coding_test.Chapter 12. 구현(完).10-1",
-        "peekOfCode": "def solution(key, lock):\n    n = len(lock)\n    m = len(key)\n    new_lock = [[0] * (n * 3) for _ in range(n * 3)]\n    for i in range(n):\n        for j in range(n):\n            new_lock[i+n][j+n] = lock[i][j]\n    for rotation in range(4):\n        key = rotate_a_matrix_by_90_degree(key)\n        for x in range(n * 2):",
+        "peekOfCode": "def solution(key, lock):\n    n = len(lock)\n    m = len(key)\n    new_lock = [[0] * (n * 3) for _ in range(n * 3)]\n    for i in range(n):\n        for j in range(n):\n            new_lock[i + n][j + n] = lock[i][j]\n    for rotation in range(4):\n        key = rotate_a_matrix_by_90_degree(key)\n        for x in range(n * 2):",
         "detail": "Coding_test.Chapter 12. 구현(完).10-1",
         "documentation": {}
     },
@@ -2341,7 +2564,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-2",
         "description": "Coding_test.Chapter 12. 구현(完).10-2",
-        "peekOfCode": "def rotate_a_matrix_by_90_degree(key):\n    n = len(key)\n    result = [[0] * n for _ in range(n)] \n    for i in range(n):\n        for j in range(n):\n            result[j][n-i-1] = key[i][j]\n    return result\ndef check(new_lock):\n    m = len(new_lock) // 3\n    for i in range(m, 2*m):",
+        "peekOfCode": "def rotate_a_matrix_by_90_degree(key):\n    n = len(key)\n    result = [[0] * n for _ in range(n)]\n    for i in range(n):\n        for j in range(n):\n            result[j][n - i - 1] = key[i][j]\n    return result\ndef check(new_lock):\n    m = len(new_lock) // 3\n    for i in range(m, 2 * m):",
         "detail": "Coding_test.Chapter 12. 구현(完).10-2",
         "documentation": {}
     },
@@ -2350,7 +2573,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-2",
         "description": "Coding_test.Chapter 12. 구현(完).10-2",
-        "peekOfCode": "def check(new_lock):\n    m = len(new_lock) // 3\n    for i in range(m, 2*m):\n        for j in range(m, 2*m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution(key, lock):\n    n = len(key)\n    m = len(lock)",
+        "peekOfCode": "def check(new_lock):\n    m = len(new_lock) // 3\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution(key, lock):\n    n = len(key)\n    m = len(lock)",
         "detail": "Coding_test.Chapter 12. 구현(完).10-2",
         "documentation": {}
     },
@@ -2359,7 +2582,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-2",
         "description": "Coding_test.Chapter 12. 구현(完).10-2",
-        "peekOfCode": "def solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    new_lock = [[0]*(3*m) for _ in range(3*m)]\n    for i in range(m,2*m):\n        for j in range(m,2*m):\n            new_lock[i][j] = lock[i - m][j - m]\n    for _ in range(4):\n        key = rotate_a_matrix_by_90_degree(key)\n        for y in range(2*m):",
+        "peekOfCode": "def solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    new_lock = [[0] * (3 * m) for _ in range(3 * m)]\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            new_lock[i][j] = lock[i - m][j - m]\n    for _ in range(4):\n        key = rotate_a_matrix_by_90_degree(key)\n        for y in range(2 * m):",
         "detail": "Coding_test.Chapter 12. 구현(完).10-2",
         "documentation": {}
     },
@@ -2368,7 +2591,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).10-3-best",
-        "peekOfCode": "def rotate_by_90_degrees(key):\n    n = len(key)\n    for i in range(n):\n        for j in range(n):\n            key[j][n-i-1] = key[i][j]\n    return key\ndef check(new_lock,m):\n    for i in range(m,2*m):\n        for j in range(m,2*m):\n            if new_lock[i][j] != 1:",
+        "peekOfCode": "def rotate_by_90_degrees(key):\n    n = len(key)\n    for i in range(n):\n        for j in range(n):\n            key[j][n - i - 1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:",
         "detail": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "documentation": {}
     },
@@ -2377,7 +2600,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).10-3-best",
-        "peekOfCode": "def check(new_lock,m):\n    for i in range(m,2*m):\n        for j in range(m,2*m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    # initialize",
+        "peekOfCode": "def check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    # initialize",
         "detail": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "documentation": {}
     },
@@ -2386,7 +2609,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).10-3-best",
-        "peekOfCode": "def solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    # initialize\n    new_lock = [[0]*3*m for _ in range(3*m)]\n    for i in range(m):\n        for j in range(m):\n            new_lock[i+m][j+m] = lock[i][j]\n    for _ in range(4):\n        key = rotate_by_90_degrees(key)",
+        "peekOfCode": "def solution(key, lock):\n    n = len(key)\n    m = len(lock)\n    # initialize\n    new_lock = [[0] * 3 * m for _ in range(3 * m)]\n    for i in range(m):\n        for j in range(m):\n            new_lock[i + m][j + m] = lock[i][j]\n    for _ in range(4):\n        key = rotate_by_90_degrees(key)",
         "detail": "Coding_test.Chapter 12. 구현(完).10-3-best",
         "documentation": {}
     },
@@ -2395,7 +2618,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-4",
         "description": "Coding_test.Chapter 12. 구현(完).10-4",
-        "peekOfCode": "def rotate_by_90_degrees(key):\n    for i in range(n):\n        for j in range(n):\n            key[j][n-i-1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2*m):\n        for j in range(m, 2*m):\n            if new_lock[i][j] != 1:\n                return False",
+        "peekOfCode": "def rotate_by_90_degrees(key):\n    for i in range(n):\n        for j in range(n):\n            key[j][n - i - 1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:\n                return False",
         "detail": "Coding_test.Chapter 12. 구현(完).10-4",
         "documentation": {}
     },
@@ -2404,7 +2627,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-4",
         "description": "Coding_test.Chapter 12. 구현(完).10-4",
-        "peekOfCode": "def check(new_lock, m):\n    for i in range(m, 2*m):\n        for j in range(m, 2*m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution():\n    key = [[0,0,0],[1,0,0],[0,1,1]]\n    lock = [[1,1,1],[1,1,0],[1,0,1]]\n    n = len(key)",
+        "peekOfCode": "def check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:\n                return False\n    return True\ndef solution():\n    key = [[0, 0, 0], [1, 0, 0], [0, 1, 1]]\n    lock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]\n    n = len(key)",
         "detail": "Coding_test.Chapter 12. 구현(完).10-4",
         "documentation": {}
     },
@@ -2413,8 +2636,80 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).10-4",
         "description": "Coding_test.Chapter 12. 구현(完).10-4",
-        "peekOfCode": "def solution():\n    key = [[0,0,0],[1,0,0],[0,1,1]]\n    lock = [[1,1,1],[1,1,0],[1,0,1]]\n    n = len(key)\n    m = len(lock)\n    new_lock = [[0]*3*m for _ in range(3*m)]\n    # initialize\n    for i in range(m):\n        for j in range(m):\n            new_lock[m+i][m+j] = lock[i][j]",
+        "peekOfCode": "def solution():\n    key = [[0, 0, 0], [1, 0, 0], [0, 1, 1]]\n    lock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]\n    n = len(key)\n    m = len(lock)\n    new_lock = [[0] * 3 * m for _ in range(3 * m)]\n    # initialize\n    for i in range(m):\n        for j in range(m):\n            new_lock[m + i][m + j] = lock[i][j]",
         "detail": "Coding_test.Chapter 12. 구현(完).10-4",
+        "documentation": {}
+    },
+    {
+        "label": "rotate_by_90_degrees",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "def rotate_by_90_degrees(key):\n    n = len(key)\n    for i in range(n):\n        for j in range(n):\n            key[j][n - i - 1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "def check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):\n            if new_lock[i][j] != 1:\n                return False\nn = len(key)\nm = len(lock)\nanswer = False\nnew_lock = [[0] * 3 * m for _ in range(3 * m)]\nfor i in range(m):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "key",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "key = [[0, 0, 0], [1, 0, 0], [0, 1, 1]]\nlock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]\ndef rotate_by_90_degrees(key):\n    n = len(key)\n    for i in range(n):\n        for j in range(n):\n            key[j][n - i - 1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2 * m):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "lock",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "lock = [[1, 1, 1], [1, 1, 0], [1, 0, 1]]\ndef rotate_by_90_degrees(key):\n    n = len(key)\n    for i in range(n):\n        for j in range(n):\n            key[j][n - i - 1] = key[i][j]\n    return key\ndef check(new_lock, m):\n    for i in range(m, 2 * m):\n        for j in range(m, 2 * m):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "n = len(key)\nm = len(lock)\nanswer = False\nnew_lock = [[0] * 3 * m for _ in range(3 * m)]\nfor i in range(m):\n    for j in range(m):\n        new_lock[m + i][m + j] = lock[i][j]\nfor _ in range(4):\n    key = rotate_by_90_degrees(key)\n    for i in range(m):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "m = len(lock)\nanswer = False\nnew_lock = [[0] * 3 * m for _ in range(3 * m)]\nfor i in range(m):\n    for j in range(m):\n        new_lock[m + i][m + j] = lock[i][j]\nfor _ in range(4):\n    key = rotate_by_90_degrees(key)\n    for i in range(m):\n        for j in range(m):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "answer = False\nnew_lock = [[0] * 3 * m for _ in range(3 * m)]\nfor i in range(m):\n    for j in range(m):\n        new_lock[m + i][m + j] = lock[i][j]\nfor _ in range(4):\n    key = rotate_by_90_degrees(key)\n    for i in range(m):\n        for j in range(m):\n            for x in range(n):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
+        "documentation": {}
+    },
+    {
+        "label": "new_lock",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).10-5",
+        "description": "Coding_test.Chapter 12. 구현(完).10-5",
+        "peekOfCode": "new_lock = [[0] * 3 * m for _ in range(3 * m)]\nfor i in range(m):\n    for j in range(m):\n        new_lock[m + i][m + j] = lock[i][j]\nfor _ in range(4):\n    key = rotate_by_90_degrees(key)\n    for i in range(m):\n        for j in range(m):\n            for x in range(n):\n                for y in range(n):",
+        "detail": "Coding_test.Chapter 12. 구현(完).10-5",
         "documentation": {}
     },
     {
@@ -4015,7 +4310,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "n = int(input())\nscores = {}\nfor _ in range(n):\n    name, k, e, m = sys.stdin.readline().split()\n    scores[name] = [int(k),int(e),int(m)]\nscores_list = sorted(scores.items(), key=lambda item:item[0])\nscores_list = sorted(scores_list, key=lambda x:x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x:x[1][1])\nscores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:",
+        "peekOfCode": "n = int(input())\nscores = {}\nfor _ in range(n):\n    name, k, e, m = sys.stdin.readline().split()\n    scores[name] = [int(k), int(e), int(m)]\nscores_list = sorted(scores.items(), key=lambda item: item[0])\nscores_list = sorted(scores_list, key=lambda x: x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x: x[1][1])\nscores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4024,7 +4319,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "scores = {}\nfor _ in range(n):\n    name, k, e, m = sys.stdin.readline().split()\n    scores[name] = [int(k),int(e),int(m)]\nscores_list = sorted(scores.items(), key=lambda item:item[0])\nscores_list = sorted(scores_list, key=lambda x:x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x:x[1][1])\nscores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
+        "peekOfCode": "scores = {}\nfor _ in range(n):\n    name, k, e, m = sys.stdin.readline().split()\n    scores[name] = [int(k), int(e), int(m)]\nscores_list = sorted(scores.items(), key=lambda item: item[0])\nscores_list = sorted(scores_list, key=lambda x: x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x: x[1][1])\nscores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4033,7 +4328,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "scores_list = sorted(scores.items(), key=lambda item:item[0])\nscores_list = sorted(scores_list, key=lambda x:x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x:x[1][1])\nscores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
+        "peekOfCode": "scores_list = sorted(scores.items(), key=lambda item: item[0])\nscores_list = sorted(scores_list, key=lambda x: x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x: x[1][1])\nscores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4042,7 +4337,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x:x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x:x[1][1])\nscores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
+        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x: x[1][2], reverse=True)\nscores_list = sorted(scores_list, key=lambda x: x[1][1])\nscores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4051,7 +4346,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x:x[1][1])\nscores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
+        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x: x[1][1])\nscores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4060,7 +4355,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-1",
         "description": "Coding_test.Chapter 14. 정렬(完).23-1",
-        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x:x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
+        "peekOfCode": "scores_list = sorted(scores_list, key=lambda x: x[1][0], reverse=True)\nfor info in scores_list:\n    print(info[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-1",
         "documentation": {}
     },
@@ -4069,7 +4364,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\nstudent = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x:x[0])\nstudent_list = sorted(student_list, key = lambda x:x[3], reverse=True)\nstudent_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)",
+        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\nstudent = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x: x[0])\nstudent_list = sorted(student_list, key=lambda x: x[3], reverse=True)\nstudent_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4078,7 +4373,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "n = int(input())\nstudent = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x:x[0])\nstudent_list = sorted(student_list, key = lambda x:x[3], reverse=True)\nstudent_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:",
+        "peekOfCode": "n = int(input())\nstudent = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x: x[0])\nstudent_list = sorted(student_list, key=lambda x: x[3], reverse=True)\nstudent_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4087,7 +4382,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "student = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x:x[0])\nstudent_list = sorted(student_list, key = lambda x:x[3], reverse=True)\nstudent_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
+        "peekOfCode": "student = []\nfor _ in range(n):\n    info = list(input().split())\n    student.append([info[0], int(info[1]), int(info[2]), int(info[3])])\nstudent_list = sorted(list(student), key=lambda x: x[0])\nstudent_list = sorted(student_list, key=lambda x: x[3], reverse=True)\nstudent_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4096,7 +4391,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "student_list = sorted(list(student), key=lambda x:x[0])\nstudent_list = sorted(student_list, key = lambda x:x[3], reverse=True)\nstudent_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
+        "peekOfCode": "student_list = sorted(list(student), key=lambda x: x[0])\nstudent_list = sorted(student_list, key=lambda x: x[3], reverse=True)\nstudent_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4105,7 +4400,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "student_list = sorted(student_list, key = lambda x:x[3], reverse=True)\nstudent_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
+        "peekOfCode": "student_list = sorted(student_list, key=lambda x: x[3], reverse=True)\nstudent_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4114,7 +4409,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "student_list = sorted(student_list, key = lambda x:x[2])\nstudent_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
+        "peekOfCode": "student_list = sorted(student_list, key=lambda x: x[2])\nstudent_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4123,7 +4418,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-2",
         "description": "Coding_test.Chapter 14. 정렬(完).23-2",
-        "peekOfCode": "student_list = sorted(student_list, key = lambda x:x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
+        "peekOfCode": "student_list = sorted(student_list, key=lambda x: x[1], reverse=True)\nfor student in student_list:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-2",
         "documentation": {}
     },
@@ -4132,7 +4427,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "n = int(input())\ndata = []\nfor _ in range(n):\n    name, x, y, z = input().split()\n    data.append([name, int(x), int(y), int(z)])\ndata = sorted(data, key = lambda x:x[0])\ndata = sorted(data, key = lambda x:x[3], reverse=True)\ndata = sorted(data, key = lambda x:x[2])\ndata = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):",
+        "peekOfCode": "n = int(input())\ndata = []\nfor _ in range(n):\n    name, x, y, z = input().split()\n    data.append([name, int(x), int(y), int(z)])\ndata = sorted(data, key=lambda x: x[0])\ndata = sorted(data, key=lambda x: x[3], reverse=True)\ndata = sorted(data, key=lambda x: x[2])\ndata = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4141,7 +4436,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "data = []\nfor _ in range(n):\n    name, x, y, z = input().split()\n    data.append([name, int(x), int(y), int(z)])\ndata = sorted(data, key = lambda x:x[0])\ndata = sorted(data, key = lambda x:x[3], reverse=True)\ndata = sorted(data, key = lambda x:x[2])\ndata = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
+        "peekOfCode": "data = []\nfor _ in range(n):\n    name, x, y, z = input().split()\n    data.append([name, int(x), int(y), int(z)])\ndata = sorted(data, key=lambda x: x[0])\ndata = sorted(data, key=lambda x: x[3], reverse=True)\ndata = sorted(data, key=lambda x: x[2])\ndata = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4150,7 +4445,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "data = sorted(data, key = lambda x:x[0])\ndata = sorted(data, key = lambda x:x[3], reverse=True)\ndata = sorted(data, key = lambda x:x[2])\ndata = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
+        "peekOfCode": "data = sorted(data, key=lambda x: x[0])\ndata = sorted(data, key=lambda x: x[3], reverse=True)\ndata = sorted(data, key=lambda x: x[2])\ndata = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4159,7 +4454,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "data = sorted(data, key = lambda x:x[3], reverse=True)\ndata = sorted(data, key = lambda x:x[2])\ndata = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
+        "peekOfCode": "data = sorted(data, key=lambda x: x[3], reverse=True)\ndata = sorted(data, key=lambda x: x[2])\ndata = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4168,7 +4463,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "data = sorted(data, key = lambda x:x[2])\ndata = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
+        "peekOfCode": "data = sorted(data, key=lambda x: x[2])\ndata = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4177,7 +4472,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).23-3-best",
-        "peekOfCode": "data = sorted(data, key = lambda x:x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
+        "peekOfCode": "data = sorted(data, key=lambda x: x[1], reverse=True)\nfor i in range(n):\n    print(data[i][0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-3-best",
         "documentation": {}
     },
@@ -4186,7 +4481,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "n = int(input())\nstudents = []\nfor _ in range(n):\n    name, kor, eng, math = input().split()\n    students.append((name, int(kor), int(eng), int(math)))\nstudents = sorted(students, key=lambda x:x[0])\nstudents = sorted(students, key=lambda x:x[3], reverse=True)\nstudents = sorted(students, key=lambda x:x[2])\nstudents = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:",
+        "peekOfCode": "n = int(input())\nstudents = []\nfor _ in range(n):\n    name, kor, eng, math = input().split()\n    students.append((name, int(kor), int(eng), int(math)))\nstudents = sorted(students, key=lambda x: x[0])\nstudents = sorted(students, key=lambda x: x[3], reverse=True)\nstudents = sorted(students, key=lambda x: x[2])\nstudents = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4195,7 +4490,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "students = []\nfor _ in range(n):\n    name, kor, eng, math = input().split()\n    students.append((name, int(kor), int(eng), int(math)))\nstudents = sorted(students, key=lambda x:x[0])\nstudents = sorted(students, key=lambda x:x[3], reverse=True)\nstudents = sorted(students, key=lambda x:x[2])\nstudents = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:\n    print(student[0])",
+        "peekOfCode": "students = []\nfor _ in range(n):\n    name, kor, eng, math = input().split()\n    students.append((name, int(kor), int(eng), int(math)))\nstudents = sorted(students, key=lambda x: x[0])\nstudents = sorted(students, key=lambda x: x[3], reverse=True)\nstudents = sorted(students, key=lambda x: x[2])\nstudents = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4204,7 +4499,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "students = sorted(students, key=lambda x:x[0])\nstudents = sorted(students, key=lambda x:x[3], reverse=True)\nstudents = sorted(students, key=lambda x:x[2])\nstudents = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:\n    print(student[0])",
+        "peekOfCode": "students = sorted(students, key=lambda x: x[0])\nstudents = sorted(students, key=lambda x: x[3], reverse=True)\nstudents = sorted(students, key=lambda x: x[2])\nstudents = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4213,7 +4508,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "students = sorted(students, key=lambda x:x[3], reverse=True)\nstudents = sorted(students, key=lambda x:x[2])\nstudents = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:\n    print(student[0])",
+        "peekOfCode": "students = sorted(students, key=lambda x: x[3], reverse=True)\nstudents = sorted(students, key=lambda x: x[2])\nstudents = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4222,7 +4517,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "students = sorted(students, key=lambda x:x[2])\nstudents = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:\n    print(student[0])",
+        "peekOfCode": "students = sorted(students, key=lambda x: x[2])\nstudents = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4231,7 +4526,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).23-4",
         "description": "Coding_test.Chapter 14. 정렬(完).23-4",
-        "peekOfCode": "students = sorted(students, key=lambda x:x[1], reverse=True)\nfor student in students:\n    print(student[0])",
+        "peekOfCode": "students = sorted(students, key=lambda x: x[1], reverse=True)\nfor student in students:\n    print(student[0])",
         "detail": "Coding_test.Chapter 14. 정렬(完).23-4",
         "documentation": {}
     },
@@ -4294,7 +4589,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-1",
         "description": "Coding_test.Chapter 14. 정렬(完).24-1",
-        "peekOfCode": "n = int(input())\nhome = map(int, input().split())\nhome = sorted(home)\nprint(home[(n-1)//2])",
+        "peekOfCode": "n = int(input())\nhome = map(int, input().split())\nhome = sorted(home)\nprint(home[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-1",
         "documentation": {}
     },
@@ -4303,7 +4598,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-1",
         "description": "Coding_test.Chapter 14. 정렬(完).24-1",
-        "peekOfCode": "home = map(int, input().split())\nhome = sorted(home)\nprint(home[(n-1)//2])",
+        "peekOfCode": "home = map(int, input().split())\nhome = sorted(home)\nprint(home[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-1",
         "documentation": {}
     },
@@ -4312,7 +4607,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-1",
         "description": "Coding_test.Chapter 14. 정렬(完).24-1",
-        "peekOfCode": "home = sorted(home)\nprint(home[(n-1)//2])",
+        "peekOfCode": "home = sorted(home)\nprint(home[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-1",
         "documentation": {}
     },
@@ -4321,7 +4616,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-2",
         "description": "Coding_test.Chapter 14. 정렬(完).24-2",
-        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\ndata = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data)-1)//2])",
+        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\ndata = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data) - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-2",
         "documentation": {}
     },
@@ -4330,7 +4625,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-2",
         "description": "Coding_test.Chapter 14. 정렬(完).24-2",
-        "peekOfCode": "n = int(input())\ndata = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data)-1)//2])",
+        "peekOfCode": "n = int(input())\ndata = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data) - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-2",
         "documentation": {}
     },
@@ -4339,7 +4634,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-2",
         "description": "Coding_test.Chapter 14. 정렬(完).24-2",
-        "peekOfCode": "data = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data)-1)//2])",
+        "peekOfCode": "data = list(map(int, input().split()))\ndata.sort()\nprint(data[(len(data) - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-2",
         "documentation": {}
     },
@@ -4348,7 +4643,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).24-3-best",
-        "peekOfCode": "n = int(input())\narray = list(map(int, input().split()))\narray.sort()\nprint(array[(n-1) // 2])",
+        "peekOfCode": "n = int(input())\narray = list(map(int, input().split()))\narray.sort()\nprint(array[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-3-best",
         "documentation": {}
     },
@@ -4357,7 +4652,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).24-3-best",
-        "peekOfCode": "array = list(map(int, input().split()))\narray.sort()\nprint(array[(n-1) // 2])",
+        "peekOfCode": "array = list(map(int, input().split()))\narray.sort()\nprint(array[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-3-best",
         "documentation": {}
     },
@@ -4366,7 +4661,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-4",
         "description": "Coding_test.Chapter 14. 정렬(完).24-4",
-        "peekOfCode": "n = int(input())\nhouses = list(map(int, input().split()))\nhouses.sort()\nprint(houses[(n-1) // 2])",
+        "peekOfCode": "n = int(input())\nhouses = list(map(int, input().split()))\nhouses.sort()\nprint(houses[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-4",
         "documentation": {}
     },
@@ -4375,7 +4670,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).24-4",
         "description": "Coding_test.Chapter 14. 정렬(完).24-4",
-        "peekOfCode": "houses = list(map(int, input().split()))\nhouses.sort()\nprint(houses[(n-1) // 2])",
+        "peekOfCode": "houses = list(map(int, input().split()))\nhouses.sort()\nprint(houses[(n - 1) // 2])",
         "detail": "Coding_test.Chapter 14. 정렬(完).24-4",
         "documentation": {}
     },
@@ -4411,7 +4706,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 14. 정렬(完).25-1",
         "description": "Coding_test.Chapter 14. 정렬(完).25-1",
-        "peekOfCode": "def solution(N, stages):\n    players = [[i+1,stages.count(i+1),0] for i in range(N)]\n    total_num = len(stages)\n    prev_players = 0\n    for i in range(N):\n        if players[i][1] != 0:\n            players[i][2] = players[i][1] / (total_num - prev_players)\n        else:\n            players[i][1] = 0\n        prev_players += players[i][1]",
+        "peekOfCode": "def solution(N, stages):\n    players = [[i + 1, stages.count(i + 1), 0] for i in range(N)]\n    total_num = len(stages)\n    prev_players = 0\n    for i in range(N):\n        if players[i][1] != 0:\n            players[i][2] = players[i][1] / (total_num - prev_players)\n        else:\n            players[i][1] = 0\n        prev_players += players[i][1]",
         "detail": "Coding_test.Chapter 14. 정렬(完).25-1",
         "documentation": {}
     },
@@ -4420,7 +4715,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 14. 정렬(完).25-2",
         "description": "Coding_test.Chapter 14. 정렬(完).25-2",
-        "peekOfCode": "def solution(N, stages):\n    players = [[i+1, stages.count(i+1)] for i in range(N)]\n    fails = []\n    total = len(stages) \n    prev = 0\n    for i in range(N):  # Change range from 0 to 1\n        if players[i][1] == 0:\n            fails.append([i+1, 0])\n        else:\n            fails.append([i+1, players[i][1] / (total - prev)])",
+        "peekOfCode": "def solution(N, stages):\n    players = [[i + 1, stages.count(i + 1)] for i in range(N)]\n    fails = []\n    total = len(stages)\n    prev = 0\n    for i in range(N):  # Change range from 0 to 1\n        if players[i][1] == 0:\n            fails.append([i + 1, 0])\n        else:\n            fails.append([i + 1, players[i][1] / (total - prev)])",
         "detail": "Coding_test.Chapter 14. 정렬(完).25-2",
         "documentation": {}
     },
@@ -4429,7 +4724,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 14. 정렬(完).25-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).25-3-best",
-        "peekOfCode": "def solution(N, stages):\n    players = [[i+1, stages.count(i+1)] for i in range(N)]\n    total = len(stages)\n    prev = 0\n    for i in range(len(players)):\n        players[i].append(players[i]/(total-prev))\n        prev += players[i][1]\n    players = sorted(players, key=lambda x:x[-1])\n    print([i[0] for i in players])",
+        "peekOfCode": "def solution(N, stages):\n    players = [[i + 1, stages.count(i + 1)] for i in range(N)]\n    total = len(stages)\n    prev = 0\n    for i in range(len(players)):\n        players[i].append(players[i] / (total - prev))\n        prev += players[i][1]\n    players = sorted(players, key=lambda x: x[-1])\n    print([i[0] for i in players])",
         "detail": "Coding_test.Chapter 14. 정렬(完).25-3-best",
         "documentation": {}
     },
@@ -4438,8 +4733,80 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 14. 정렬(完).25-4",
         "description": "Coding_test.Chapter 14. 정렬(完).25-4",
-        "peekOfCode": "def solution(N, stages):\n    stages.sort()\n    players = [[i+1, stages.count(i+1), 0] for i in range(N)]\n    total = len(stages)\n    for idx in range(len(players)):\n        players[idx][2] = players[idx][1]/total\n        total -= players[idx][1]\n    players = sorted(players, key=lambda x:x[2], reverse=True)\n    print([player[0] for player in players])\nsolution(5, [2,1,2,6,2,4,3,3])",
+        "peekOfCode": "def solution(N, stages):\n    stages.sort()\n    players = [[i + 1, stages.count(i + 1), 0] for i in range(N)]\n    total = len(stages)\n    for idx in range(len(players)):\n        players[idx][2] = players[idx][1] / total\n        total -= players[idx][1]\n    players = sorted(players, key=lambda x: x[2], reverse=True)\n    print([player[0] for player in players])\nsolution(5, [2, 1, 2, 6, 2, 4, 3, 3])",
         "detail": "Coding_test.Chapter 14. 정렬(完).25-4",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "n = int(input())\nstages = list(map(int, input().split()))\ndata = {}\nfor stage in range(1, n + 2):\n    data[stage] = 0\nfor stage in stages:\n    data[stage] = stages.count(stage)\ndata = sorted(data.items(), key=lambda x: x[0])\ndata = [count for _, count in data]\nrate = []",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "stages",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "stages = list(map(int, input().split()))\ndata = {}\nfor stage in range(1, n + 2):\n    data[stage] = 0\nfor stage in stages:\n    data[stage] = stages.count(stage)\ndata = sorted(data.items(), key=lambda x: x[0])\ndata = [count for _, count in data]\nrate = []\nfor stage in range(n):",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "data = {}\nfor stage in range(1, n + 2):\n    data[stage] = 0\nfor stage in stages:\n    data[stage] = stages.count(stage)\ndata = sorted(data.items(), key=lambda x: x[0])\ndata = [count for _, count in data]\nrate = []\nfor stage in range(n):\n    rate.append((data[stage] / sum(data[stage:]), stage + 1))",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "data = sorted(data.items(), key=lambda x: x[0])\ndata = [count for _, count in data]\nrate = []\nfor stage in range(n):\n    rate.append((data[stage] / sum(data[stage:]), stage + 1))\nanswer = sorted(rate, key=lambda x: x[0], reverse=True)\nanswer = [stage for _, stage in answer]\nprint(answer)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "data = [count for _, count in data]\nrate = []\nfor stage in range(n):\n    rate.append((data[stage] / sum(data[stage:]), stage + 1))\nanswer = sorted(rate, key=lambda x: x[0], reverse=True)\nanswer = [stage for _, stage in answer]\nprint(answer)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "rate",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "rate = []\nfor stage in range(n):\n    rate.append((data[stage] / sum(data[stage:]), stage + 1))\nanswer = sorted(rate, key=lambda x: x[0], reverse=True)\nanswer = [stage for _, stage in answer]\nprint(answer)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "answer = sorted(rate, key=lambda x: x[0], reverse=True)\nanswer = [stage for _, stage in answer]\nprint(answer)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).25-5",
+        "peekOfCode": "answer = [stage for _, stage in answer]\nprint(answer)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).25-5",
         "documentation": {}
     },
     {
@@ -4474,7 +4841,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-2",
         "description": "Coding_test.Chapter 14. 정렬(完).26-2",
-        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\ncards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a+b)",
+        "peekOfCode": "input = sys.stdin.readline\nn = int(input())\ncards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a + b)",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-2",
         "documentation": {}
     },
@@ -4483,7 +4850,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-2",
         "description": "Coding_test.Chapter 14. 정렬(完).26-2",
-        "peekOfCode": "n = int(input())\ncards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a+b)\n    total.append(a)",
+        "peekOfCode": "n = int(input())\ncards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a + b)\n    total.append(a)",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-2",
         "documentation": {}
     },
@@ -4492,7 +4859,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-2",
         "description": "Coding_test.Chapter 14. 정렬(完).26-2",
-        "peekOfCode": "cards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a+b)\n    total.append(a)\n    total.append(b)",
+        "peekOfCode": "cards = []\nfor _ in range(n):\n    heapq.heappush(cards, (int(input())))\ntotal = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a + b)\n    total.append(a)\n    total.append(b)",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-2",
         "documentation": {}
     },
@@ -4501,7 +4868,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-2",
         "description": "Coding_test.Chapter 14. 정렬(完).26-2",
-        "peekOfCode": "total = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a+b)\n    total.append(a)\n    total.append(b)\nprint(sum(total))",
+        "peekOfCode": "total = []\nwhile len(cards) != 1:\n    a = heapq.heappop(cards)\n    b = heapq.heappop(cards)\n    heapq.heappush(cards, a + b)\n    total.append(a)\n    total.append(b)\nprint(sum(total))",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-2",
         "documentation": {}
     },
@@ -4510,7 +4877,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).26-3-best",
-        "peekOfCode": "n = int(input())\nq = []\ntotal = []\nfor i in range(n):\n    heapq.heappush(q,(int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q,(a+b))",
+        "peekOfCode": "n = int(input())\nq = []\ntotal = []\nfor i in range(n):\n    heapq.heappush(q, (int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "documentation": {}
     },
@@ -4519,7 +4886,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).26-3-best",
-        "peekOfCode": "q = []\ntotal = []\nfor i in range(n):\n    heapq.heappush(q,(int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q,(a+b))\n        total.append(a+b)",
+        "peekOfCode": "q = []\ntotal = []\nfor i in range(n):\n    heapq.heappush(q, (int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))\n        total.append(a + b)",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "documentation": {}
     },
@@ -4528,7 +4895,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "description": "Coding_test.Chapter 14. 정렬(完).26-3-best",
-        "peekOfCode": "total = []\nfor i in range(n):\n    heapq.heappush(q,(int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q,(a+b))\n        total.append(a+b)\n    except:",
+        "peekOfCode": "total = []\nfor i in range(n):\n    heapq.heappush(q, (int(input())))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))\n        total.append(a + b)\n    except:",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-3-best",
         "documentation": {}
     },
@@ -4537,7 +4904,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-4",
         "description": "Coding_test.Chapter 14. 정렬(完).26-4",
-        "peekOfCode": "n = int(input())\nq = []\ncards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q: \n    a = heapq.heappop()\n    try: \n        b = heapq.heappop()",
+        "peekOfCode": "n = int(input())\nq = []\ncards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q:\n    a = heapq.heappop()\n    try:\n        b = heapq.heappop()",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-4",
         "documentation": {}
     },
@@ -4546,7 +4913,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-4",
         "description": "Coding_test.Chapter 14. 정렬(完).26-4",
-        "peekOfCode": "q = []\ncards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q: \n    a = heapq.heappop()\n    try: \n        b = heapq.heappop()\n        heapq.heappush(q, (a+b))",
+        "peekOfCode": "q = []\ncards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q:\n    a = heapq.heappop()\n    try:\n        b = heapq.heappop()\n        heapq.heappush(q, (a + b))",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-4",
         "documentation": {}
     },
@@ -4555,7 +4922,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-4",
         "description": "Coding_test.Chapter 14. 정렬(完).26-4",
-        "peekOfCode": "cards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q: \n    a = heapq.heappop()\n    try: \n        b = heapq.heappop()\n        heapq.heappush(q, (a+b))\n        cards.append(a+b)",
+        "peekOfCode": "cards = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nanswer = 0\nwhile q:\n    a = heapq.heappop()\n    try:\n        b = heapq.heappop()\n        heapq.heappush(q, (a + b))\n        cards.append(a + b)",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-4",
         "documentation": {}
     },
@@ -4564,7 +4931,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 14. 정렬(完).26-4",
         "description": "Coding_test.Chapter 14. 정렬(完).26-4",
-        "peekOfCode": "answer = 0\nwhile q: \n    a = heapq.heappop()\n    try: \n        b = heapq.heappop()\n        heapq.heappush(q, (a+b))\n        cards.append(a+b)\n    except:\n        pass\nprint(sum(cards))",
+        "peekOfCode": "answer = 0\nwhile q:\n    a = heapq.heappop()\n    try:\n        b = heapq.heappop()\n        heapq.heappush(q, (a + b))\n        cards.append(a + b)\n    except:\n        pass\nprint(sum(cards))",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-4",
         "documentation": {}
     },
@@ -6956,6 +7323,15 @@
     {
         "label": "solution",
         "kind": 2,
+        "importPath": "Programmers.Level 1(完).이웃한칸",
+        "description": "Programmers.Level 1(完).이웃한칸",
+        "peekOfCode": "def solution(board, h, w):\n    n = len(board)\n    count = 0\n    dh = [0, 1, -1, 0]\n    dw = [1, 0, 0, -1]\n    for i in range(4):\n        h_check = h + dh[i]\n        w_check = w + dw[i]\n        if 0 <= h_check < n and 0 <= w_check < n:\n            if board[h][w] == board[h_check][w_check]:",
+        "detail": "Programmers.Level 1(完).이웃한칸",
+        "documentation": {}
+    },
+    {
+        "label": "solution",
+        "kind": 2,
         "importPath": "Programmers.Level 1(完).최소직사각형",
         "description": "Programmers.Level 1(完).최소직사각형",
         "peekOfCode": "def solution(sizes):\n    max_row, max_col = 0,0\n    for i in range(len(sizes)):\n        if sizes[i][0] < sizes[i][1]:\n            sizes[i][0], sizes[i][1] = sizes[i][1], sizes[i][0]\n        max_row = max(max_row, sizes[i][0])\n        max_col = max(max_col, sizes[i][1])\n    answer = max_row*max_col\n    return answer",
@@ -7014,6 +7390,15 @@
         "description": "Programmers.Level 1(完).햄버거 만들기",
         "peekOfCode": "def solution(ingredient):\n    answer = 0\n    stack = []\n    for i in ingredient:\n        stack.append(i)\n        if stack[-4:] == [1,2,3,1]:\n            del stack[-4:]\n            answer += 1\n    return answer",
         "detail": "Programmers.Level 1(完).햄버거 만들기",
+        "documentation": {}
+    },
+    {
+        "label": "solution",
+        "kind": 2,
+        "importPath": "Programmers.Level 2.숫자변환하기",
+        "description": "Programmers.Level 2.숫자변환하기",
+        "peekOfCode": "def solution(x, y, n):\n    if x >= y:\n        return 0 if x == y else -1\n    queue = deque([(x, 0)])\n    visited = {x}\n    while queue:\n        current, steps = queue.popleft()\n        operations = [current * 2, current * 3, current + n]\n        for next_val in operations:\n            if next_val == y:",
+        "detail": "Programmers.Level 2.숫자변환하기",
         "documentation": {}
     }
 ]

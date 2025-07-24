@@ -9,12 +9,12 @@ for _ in range(n):
     heapq.heappush(q, int(input()))
 
 answer = 0
-while q: 
+while q:
     a = heapq.heappop()
-    try: 
+    try:
         b = heapq.heappop()
-        heapq.heappush(q, (a+b))
-        cards.append(a+b)
+        heapq.heappush(q, (a + b))
+        cards.append(a + b)
     except:
         pass
 
