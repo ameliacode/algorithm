@@ -1,7 +1,7 @@
-from itertools import combinations
 import copy
+from itertools import combinations
 
-n,m = map(int, input().split())
+n, m = map(int, input().split())
 data = []
 walls = []
 virus = []
@@ -10,16 +10,17 @@ for i in range(n):
     data.append(list(map(int, input().split())))
     for j in range(m):
         if data[i][j] == 0:
-            walls.append((i,j))
+            walls.append((i, j))
         if data[i][j] == 2:
-            virus.append((i,j))
+            virus.append((i, j))
 
-dx = [-1,0,1,0]
-dy = [0,1,0,-1]
+dx = [-1, 0, 1, 0]
+dy = [0, 1, 0, -1]
 
 candidates = list(combinations(walls, 3))
 
-def simulate(temp, x,y):
+
+def simulate(temp, x, y):
     for i in range(4):
         nx = x + dx[i]
         ny = y + dy[i]
@@ -29,6 +30,7 @@ def simulate(temp, x,y):
                 simulate(temp, nx, ny)
     return temp
 
+
 def count(temp):
     total = 0
     for i in range(n):
@@ -37,14 +39,15 @@ def count(temp):
                 total += 1
     return total
 
+
 max_value = 0
 for candidate in candidates:
     temp = copy.deepcopy(data)
     for c in list(candidate):
         temp[c[0]][c[1]] = 1
     for v in virus:
-        result = simulate(temp, v[0],v[1])
-    
+        result = simulate(temp, v[0], v[1])
+
     max_value = max(count(result), max_value)
 
 print(max_value)

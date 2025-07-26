@@ -144,6 +144,30 @@
         "documentation": {}
     },
     {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "deque",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "heapq",
         "kind": 6,
         "isExtraImport": true,
@@ -244,6 +268,22 @@
         "documentation": {}
     },
     {
+        "label": "combinations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "permutations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
         "label": "permutations",
         "importPath": "itertools",
         "description": "itertools",
@@ -261,6 +301,14 @@
     },
     {
         "label": "permutations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "combinations",
         "importPath": "itertools",
         "description": "itertools",
         "isExtraImport": true,
@@ -330,6 +378,14 @@
         "isExtraImport": true,
         "importPath": "copy",
         "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "deepcopy",
+        "importPath": "copy",
+        "description": "copy",
+        "isExtraImport": true,
         "detail": "copy",
         "documentation": {}
     },
@@ -571,6 +627,42 @@
         "documentation": {}
     },
     {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.1920",
+        "description": "Baekjoon.1920",
+        "peekOfCode": "n = int(input())\na = list(map(int, input().split()))\nm = int(input())\nchecks = list(map(int, input().split()))\na.sort()\nfor check in checks:\n    if check in a:\n        print(1)\n    else:\n        print(0)",
+        "detail": "Baekjoon.1920",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Baekjoon.1920",
+        "description": "Baekjoon.1920",
+        "peekOfCode": "a = list(map(int, input().split()))\nm = int(input())\nchecks = list(map(int, input().split()))\na.sort()\nfor check in checks:\n    if check in a:\n        print(1)\n    else:\n        print(0)",
+        "detail": "Baekjoon.1920",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Baekjoon.1920",
+        "description": "Baekjoon.1920",
+        "peekOfCode": "m = int(input())\nchecks = list(map(int, input().split()))\na.sort()\nfor check in checks:\n    if check in a:\n        print(1)\n    else:\n        print(0)",
+        "detail": "Baekjoon.1920",
+        "documentation": {}
+    },
+    {
+        "label": "checks",
+        "kind": 5,
+        "importPath": "Baekjoon.1920",
+        "description": "Baekjoon.1920",
+        "peekOfCode": "checks = list(map(int, input().split()))\na.sort()\nfor check in checks:\n    if check in a:\n        print(1)\n    else:\n        print(0)",
+        "detail": "Baekjoon.1920",
+        "documentation": {}
+    },
+    {
         "label": "x",
         "kind": 5,
         "importPath": "Baekjoon.19532",
@@ -595,6 +687,51 @@
         "description": "Baekjoon.2110",
         "peekOfCode": "data = []\nfor _ in range(n):\n    data.append(int(input()))\ndata.sort()",
         "detail": "Baekjoon.2110",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "Baekjoon.2178",
+        "description": "Baekjoon.2178",
+        "peekOfCode": "graph = []\nfor _ in range(n):\n    graph.append(list(map(int, input())))\nq = deque()\nq.append((0, 0))\ndx = [1, 0, -1, 0]\ndy = [0, 1, 0, -1]\nanswer = 0\nwhile q:\n    x, y = q.popleft()",
+        "detail": "Baekjoon.2178",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "Baekjoon.2178",
+        "description": "Baekjoon.2178",
+        "peekOfCode": "q = deque()\nq.append((0, 0))\ndx = [1, 0, -1, 0]\ndy = [0, 1, 0, -1]\nanswer = 0\nwhile q:\n    x, y = q.popleft()\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
+        "detail": "Baekjoon.2178",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Baekjoon.2178",
+        "description": "Baekjoon.2178",
+        "peekOfCode": "dx = [1, 0, -1, 0]\ndy = [0, 1, 0, -1]\nanswer = 0\nwhile q:\n    x, y = q.popleft()\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m and graph[nx][ny] == 1:\n            graph[nx][ny] = graph[x][y] + 1",
+        "detail": "Baekjoon.2178",
+        "documentation": {}
+    },
+    {
+        "label": "dy",
+        "kind": 5,
+        "importPath": "Baekjoon.2178",
+        "description": "Baekjoon.2178",
+        "peekOfCode": "dy = [0, 1, 0, -1]\nanswer = 0\nwhile q:\n    x, y = q.popleft()\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m and graph[nx][ny] == 1:\n            graph[nx][ny] = graph[x][y] + 1\n            q.append((nx, ny))",
+        "detail": "Baekjoon.2178",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.2178",
+        "description": "Baekjoon.2178",
+        "peekOfCode": "answer = 0\nwhile q:\n    x, y = q.popleft()\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m and graph[nx][ny] == 1:\n            graph[nx][ny] = graph[x][y] + 1\n            q.append((nx, ny))\nprint(graph[n - 1][m - 1])",
+        "detail": "Baekjoon.2178",
         "documentation": {}
     },
     {
@@ -2717,7 +2854,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "def turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1\n    data[x][y] = 2\n    direction = 0",
+        "peekOfCode": "def turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1\n    data[x][y] = 2\n    direction = 0",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2726,7 +2863,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "def simulate():\n    x,y = 1,1\n    data[x][y] = 2\n    direction = 0\n    time = 0\n    index = 0 # 다음 회전 정보\n    q = [(x,y)] #뱀이 차지하고 있는 정보\n    while True:\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
+        "peekOfCode": "def simulate():\n    x, y = 1, 1\n    data[x][y] = 2\n    direction = 0\n    time = 0\n    index = 0  # 다음 회전 정보\n    q = [(x, y)]  # 뱀이 차지하고 있는 정보\n    while True:\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2735,7 +2872,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "N = int(input())\nM = int(input())\ndata = [[0] * (N+1) for _ in range(N+1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo= []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()",
+        "peekOfCode": "N = int(input())\nM = int(input())\ndata = [[0] * (N + 1) for _ in range(N + 1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo = []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2744,7 +2881,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "M = int(input())\ndata = [[0] * (N+1) for _ in range(N+1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo= []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])",
+        "peekOfCode": "M = int(input())\ndata = [[0] * (N + 1) for _ in range(N + 1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo = []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2753,7 +2890,16 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "data = [[0] * (N+1) for _ in range(N+1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo= []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])\ndx = [0, 1, 0, -1] # 문제 해결 point",
+        "peekOfCode": "data = [[0] * (N + 1) for _ in range(N + 1)]\nfor _ in range(M):\n    x, y = map(int, input().split())\n    data[x][y] = 1\ninfo = []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])\ndx = [0, 1, 0, -1]  # 문제 해결 point",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-1",
+        "documentation": {}
+    },
+    {
+        "label": "info",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
+        "description": "Coding_test.Chapter 12. 구현(完).11-1",
+        "peekOfCode": "info = []\nL = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])\ndx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2762,7 +2908,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "L = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])\ndx = [0, 1, 0, -1] # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:",
+        "peekOfCode": "L = int(input())\nfor _ in range(L):\n    X, C = input().split()\n    info.append([int(X), C])\ndx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2771,7 +2917,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "dx = [0, 1, 0, -1] # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1",
+        "peekOfCode": "dx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2780,7 +2926,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-1",
         "description": "Coding_test.Chapter 12. 구현(完).11-1",
-        "peekOfCode": "dy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1\n    data[x][y] = 2",
+        "peekOfCode": "dy = [1, 0, -1, 0]\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1\n    data[x][y] = 2",
         "detail": "Coding_test.Chapter 12. 구현(完).11-1",
         "documentation": {}
     },
@@ -2789,7 +2935,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "def turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1\n    data[x][y] = 2 # snake trace\n    direction = 0",
+        "peekOfCode": "def turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1\n    data[x][y] = 2  # snake trace\n    direction = 0",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2798,7 +2944,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "def simulate():\n    x,y = 1,1\n    data[x][y] = 2 # snake trace\n    direction = 0\n    time = 0\n    snake = [(x,y)]\n    while True:\n        time+=1\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
+        "peekOfCode": "def simulate():\n    x, y = 1, 1\n    data[x][y] = 2  # snake trace\n    direction = 0\n    time = 0\n    snake = [(x, y)]\n    while True:\n        time += 1\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2807,7 +2953,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "n = int(input())\nk = int(input())\ndata = [[0] * (n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()",
+        "peekOfCode": "n = int(input())\nk = int(input())\ndata = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2816,7 +2962,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "k = int(input())\ndata = [[0] * (n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)",
+        "peekOfCode": "k = int(input())\ndata = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2825,7 +2971,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "data = [[0] * (n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c",
+        "peekOfCode": "data = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    data[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2834,7 +2980,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "l = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c\ndx = [0, 1, 0, -1] #행: 하, 상\ndy = [1, 0, -1, 0] #열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":",
+        "peekOfCode": "l = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c\ndx = [0, 1, 0, -1]  # 행: 하, 상\ndy = [1, 0, -1, 0]  # 열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2843,7 +2989,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "control = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c\ndx = [0, 1, 0, -1] #행: 하, 상\ndy = [1, 0, -1, 0] #열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4",
+        "peekOfCode": "control = {}\nfor _ in range(l):\n    x, c = input().split()\n    x = int(x)\n    control[x] = c\ndx = [0, 1, 0, -1]  # 행: 하, 상\ndy = [1, 0, -1, 0]  # 열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2852,7 +2998,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "dx = [0, 1, 0, -1] #행: 하, 상\ndy = [1, 0, -1, 0] #열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1",
+        "peekOfCode": "dx = [0, 1, 0, -1]  # 행: 하, 상\ndy = [1, 0, -1, 0]  # 열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2861,7 +3007,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).11-2-best",
-        "peekOfCode": "dy = [1, 0, -1, 0] #열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x,y = 1,1\n    data[x][y] = 2 # snake trace",
+        "peekOfCode": "dy = [1, 0, -1, 0]  # 열: 우, 좌\ndef turn(direction, C):\n    if C == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    x, y = 1, 1\n    data[x][y] = 2  # snake trace",
         "detail": "Coding_test.Chapter 12. 구현(完).11-2-best",
         "documentation": {}
     },
@@ -2870,7 +3016,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "def turn(direction, c):\n    if c == 'L':\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0\n    x,y = 1,1",
+        "peekOfCode": "def turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0\n    x, y = 1, 1",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2879,7 +3025,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "def simulate():\n    time = 0\n    direction = 0\n    x,y = 1,1\n    new_board[x][y] = 2\n    snake = [(x,y)]\n    while True:\n        time += 1\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
+        "peekOfCode": "def simulate():\n    time = 0\n    direction = 0\n    x, y = 1, 1\n    new_board[x][y] = 2\n    snake = [(x, y)]\n    while True:\n        time += 1\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2888,7 +3034,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "n = int(input())\nk = int(input())\nnew_board = [[0]*(n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x,y = map(int,input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol={}\nfor _ in range(l):\n    x,c = input().split()",
+        "peekOfCode": "n = int(input())\nk = int(input())\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2897,7 +3043,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "k = int(input())\nnew_board = [[0]*(n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x,y = map(int,input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol={}\nfor _ in range(l):\n    x,c = input().split()\n    control[int(x)] = c",
+        "peekOfCode": "k = int(input())\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2906,7 +3052,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "new_board = [[0]*(n+1) for _ in range(n+1)]\nfor _ in range(k):\n    x,y = map(int,input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol={}\nfor _ in range(l):\n    x,c = input().split()\n    control[int(x)] = c\ndx = [0,1,0,-1]",
+        "peekOfCode": "new_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\ndx = [0, 1, 0, -1]",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2915,7 +3061,16 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "l = int(input())\ncontrol={}\nfor _ in range(l):\n    x,c = input().split()\n    control[int(x)] = c\ndx = [0,1,0,-1]\ndy = [1,0,-1,0]\ndef turn(direction, c):\n    if c == 'L':\n        direction = (direction - 1) % 4",
+        "peekOfCode": "l = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\ndx = [0, 1, 0, -1]\ndy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-3",
+        "documentation": {}
+    },
+    {
+        "label": "control",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
+        "description": "Coding_test.Chapter 12. 구현(完).11-3",
+        "peekOfCode": "control = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\ndx = [0, 1, 0, -1]\ndy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2924,7 +3079,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "dx = [0,1,0,-1]\ndy = [1,0,-1,0]\ndef turn(direction, c):\n    if c == 'L':\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0",
+        "peekOfCode": "dx = [0, 1, 0, -1]\ndy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
@@ -2933,16 +3088,106 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).11-3",
         "description": "Coding_test.Chapter 12. 구현(完).11-3",
-        "peekOfCode": "dy = [1,0,-1,0]\ndef turn(direction, c):\n    if c == 'L':\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0",
+        "peekOfCode": "dy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0",
         "detail": "Coding_test.Chapter 12. 구현(完).11-3",
         "documentation": {}
     },
     {
+        "label": "turn",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "def turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0\n    x, y = 1, 1",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "simulate",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "def simulate():\n    time = 0\n    direction = 0\n    x, y = 1, 1\n    new_board[x][y] = 2\n    snake = [(x, y)]\n    while True:\n        time += 1\n        nx = x + dx[direction]\n        ny = y + dy[direction]",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "n = int(input())\nk = int(input())\napples = []\nfor _ in range(k):\n    apples.append(list(map(int, input().split())))\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "k",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "k = int(input())\napples = []\nfor _ in range(k):\n    apples.append(list(map(int, input().split())))\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "apples",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "apples = []\nfor _ in range(k):\n    apples.append(list(map(int, input().split())))\nl = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "l = int(input())\ncontrol = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\ndx = [0, 1, 0, -1]  # 문제 해결 point",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "control",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "control = {}\nfor _ in range(l):\n    x, c = input().split()\n    control[int(x)] = c\nnew_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\ndx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "new_board",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "new_board = [[0] * (n + 1) for _ in range(n + 1)]\nfor _ in range(k):\n    x, y = map(int, input().split())\n    new_board[x][y] = 1\ndx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "dx = [0, 1, 0, -1]  # 문제 해결 point\ndy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
+        "label": "dy",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).11-5",
+        "description": "Coding_test.Chapter 12. 구현(完).11-5",
+        "peekOfCode": "dy = [1, 0, -1, 0]\ndef turn(direction, c):\n    if c == \"L\":\n        direction = (direction - 1) % 4\n    else:\n        direction = (direction + 1) % 4\n    return direction\ndef simulate():\n    time = 0\n    direction = 0",
+        "detail": "Coding_test.Chapter 12. 구현(完).11-5",
+        "documentation": {}
+    },
+    {
         "label": "possible",
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-1",
         "description": "Coding_test.Chapter 12. 구현(完).12-1",
-        "peekOfCode": "def possible(answer):\n    for x,y,stuff in answer:\n        if stuff == 0: # pillar\n            if y == 0 or [x-1,y,1] in answer or [x,y-1,0] in answer or [x,y,1] in answer:\n                continue\n            return False\n        else: # roof\n            if [x,y-1,0] in answer or [x+1,y-1,0] in answer or ([x-1,y,1] in answer and [x+1,y,1] in answer):\n                continue\n            return False",
+        "peekOfCode": "def possible(answer):\n    for x, y, stuff in answer:\n        if stuff == 0:  # pillar\n            if (\n                y == 0\n                or [x - 1, y, 1] in answer\n                or [x, y - 1, 0] in answer\n                or [x, y, 1] in answer\n            ):\n                continue",
         "detail": "Coding_test.Chapter 12. 구현(完).12-1",
         "documentation": {}
     },
@@ -2951,7 +3196,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-1",
         "description": "Coding_test.Chapter 12. 구현(完).12-1",
-        "peekOfCode": "def solution(n, build_frame):\n    construct = [[0] * n for _ in range(n)]\n    answer = []\n    for frame in build_frame:\n        x,y,stuff,operate = frame\n        if operate == 0: #삭제\n            answer.remove([x,y,stuff])\n            if not possible(answer):\n                answer.append([x,y,stuff])\n        else: #설치",
+        "peekOfCode": "def solution(n, build_frame):\n    construct = [[0] * n for _ in range(n)]\n    answer = []\n    for frame in build_frame:\n        x, y, stuff, operate = frame\n        if operate == 0:  # 삭제\n            answer.remove([x, y, stuff])\n            if not possible(answer):\n                answer.append([x, y, stuff])\n        else:  # 설치",
         "detail": "Coding_test.Chapter 12. 구현(完).12-1",
         "documentation": {}
     },
@@ -2960,7 +3205,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).12-2-best",
-        "peekOfCode": "def possible(answer):\n    for x,y,a in answer:\n        if a == 0: # pillar\n            if y == 0 or [x-1,y,1] in answer or [x,y-1,0] in answer or [x,y,1] in answer:\n                continue\n            return False\n        else: # roof\n            if [x,y-1,0] in answer or [x+1,y-1,0] in answer or ([x-1,y,1] in answer and [x+1,y,1] in answer):\n                continue\n            return False",
+        "peekOfCode": "def possible(answer):\n    for x, y, a in answer:\n        if a == 0:  # pillar\n            if (\n                y == 0\n                or [x - 1, y, 1] in answer\n                or [x, y - 1, 0] in answer\n                or [x, y, 1] in answer\n            ):\n                continue",
         "detail": "Coding_test.Chapter 12. 구현(完).12-2-best",
         "documentation": {}
     },
@@ -2969,7 +3214,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-2-best",
         "description": "Coding_test.Chapter 12. 구현(完).12-2-best",
-        "peekOfCode": "def solution(n, build_frame):\n    answer = []\n    for frame in build_frame:\n        x,y,a,b = frame\n        if b == 0:\n            answer.remove([x,y,a])\n            if not possible(answer):\n                answer.append([x,y,a])\n        else:\n            answer.append([x,y,a])",
+        "peekOfCode": "def solution(n, build_frame):\n    answer = []\n    for frame in build_frame:\n        x, y, a, b = frame\n        if b == 0:\n            answer.remove([x, y, a])\n            if not possible(answer):\n                answer.append([x, y, a])\n        else:\n            answer.append([x, y, a])",
         "detail": "Coding_test.Chapter 12. 구현(完).12-2-best",
         "documentation": {}
     },
@@ -2978,7 +3223,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-3",
         "description": "Coding_test.Chapter 12. 구현(完).12-3",
-        "peekOfCode": "def possible(answer):\n    for x,y,a in answer:\n        if a == 0:\n            if y == 0 or [x,y-1,0] in answer or [x-1,y,1] in answer:\n                continue\n            return False\n        else:\n            if [x,y-1,0] in answer or [x+1,y-1,0] in answer or ([x-1,y,1] in answer nad [x+1,y,1] in answer):\n                continue\n            return False",
+        "peekOfCode": "def possible(answer):\n    for x, y, a in answer:\n        if a == 0:\n            if y == 0 or [x, y - 1, 0] in answer or [x - 1, y, 1] in answer:\n                continue\n            return False\n        else:\n            if (\n                [x, y - 1, 0] in answer\n                or [x + 1, y - 1, 0] in answer",
         "detail": "Coding_test.Chapter 12. 구현(完).12-3",
         "documentation": {}
     },
@@ -2987,8 +3232,26 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).12-3",
         "description": "Coding_test.Chapter 12. 구현(完).12-3",
-        "peekOfCode": "def solution(n, build_frame):\n    answer = []\n    for frame in build_frame:\n        x,y,a,b = frame\n        if b == 0:\n            answer.remove([x,y,a])\n            if not possible(answer):\n                answer.append([x,y,a])\n        else:\n            answer.append([x,y,a])",
+        "peekOfCode": "def solution(n, build_frame):\n    answer = []\n    for frame in build_frame:\n        x, y, a, b = frame\n        if b == 0:\n            answer.remove([x, y, a])\n            if not possible(answer):\n                answer.append([x, y, a])\n        else:\n            answer.append([x, y, a])",
         "detail": "Coding_test.Chapter 12. 구현(完).12-3",
+        "documentation": {}
+    },
+    {
+        "label": "possible",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).12-5",
+        "description": "Coding_test.Chapter 12. 구현(完).12-5",
+        "peekOfCode": "def possible(answer):\n    for x, y, a in answer:\n        if a == 0:\n            if y == 0 or [x, y - 1, 0] in answer or [x - 1, y, 0] in answer:\n                continue\n            return False\n        else:\n            if (\n                [x, y - 1, 0] in answer\n                or [x + 1, y - 1, 0] in answer",
+        "detail": "Coding_test.Chapter 12. 구현(完).12-5",
+        "documentation": {}
+    },
+    {
+        "label": "solution",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).12-5",
+        "description": "Coding_test.Chapter 12. 구현(完).12-5",
+        "peekOfCode": "def solution(n, build_frame):\n    answer = []\n    for frame in build_frame:\n        x, y, a, b = frame\n        if b == 0:\n            answer.remove([x, y, a])\n            if not possible(answer):\n                answer.append([x, y, a])\n        else:\n            answer.append([x, y, a])",
+        "detail": "Coding_test.Chapter 12. 구현(完).12-5",
         "documentation": {}
     },
     {
@@ -2996,16 +3259,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-1",
         "description": "Coding_test.Chapter 12. 구현(完).13-1",
-        "peekOfCode": "def get_sum(candidate):\n    result = 0\n    for hx,hy in house:\n        temp = 1e9\n        for cx, cy in candidate:\n            temp = min(temp, abs(hx-cx) + abs(hy-cy))\n        result += temp\n    return result\nresult = 1e9\nfor candidate in candidates:",
-        "detail": "Coding_test.Chapter 12. 구현(完).13-1",
-        "documentation": {}
-    },
-    {
-        "label": "n,m",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 12. 구현(完).13-1",
-        "description": "Coding_test.Chapter 12. 구현(完).13-1",
-        "peekOfCode": "n,m = map(int, input().split())\nchicken, house = [], []\nfor r in range(n):\n    data = list(map(int, input().split()))\n    for c in range(n):\n        if data[c] == 1:\n            house.append((r,c))\n        if data[c] == 2:\n            chicken.append((r,c))\ncandidates = list(combinations(chicken, m))",
+        "peekOfCode": "def get_sum(candidate):\n    result = 0\n    for hx, hy in house:\n        temp = 1e9\n        for cx, cy in candidate:\n            temp = min(temp, abs(hx - cx) + abs(hy - cy))\n        result += temp\n    return result\nresult = 1e9\nfor candidate in candidates:",
         "detail": "Coding_test.Chapter 12. 구현(完).13-1",
         "documentation": {}
     },
@@ -3014,7 +3268,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-1",
         "description": "Coding_test.Chapter 12. 구현(完).13-1",
-        "peekOfCode": "candidates = list(combinations(chicken, m))\ndef get_sum(candidate):\n    result = 0\n    for hx,hy in house:\n        temp = 1e9\n        for cx, cy in candidate:\n            temp = min(temp, abs(hx-cx) + abs(hy-cy))\n        result += temp\n    return result\nresult = 1e9",
+        "peekOfCode": "candidates = list(combinations(chicken, m))\ndef get_sum(candidate):\n    result = 0\n    for hx, hy in house:\n        temp = 1e9\n        for cx, cy in candidate:\n            temp = min(temp, abs(hx - cx) + abs(hy - cy))\n        result += temp\n    return result\nresult = 1e9",
         "detail": "Coding_test.Chapter 12. 구현(完).13-1",
         "documentation": {}
     },
@@ -3032,7 +3286,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-2",
         "description": "Coding_test.Chapter 12. 구현(完).13-2",
-        "peekOfCode": "chicken = []\nhouses = []\nfor i in range(n):\n    data = list(map(int, input().split()))\n    for j in range(n):\n        if data[j] == 1:\n            houses.append([i,j])\n        if data[j] == 2:\n            chicken.append([i,j])\ncombs = list(itertools.combinations(chicken, m))",
+        "peekOfCode": "chicken = []\nhouses = []\nfor i in range(n):\n    data = list(map(int, input().split()))\n    for j in range(n):\n        if data[j] == 1:\n            houses.append([i, j])\n        if data[j] == 2:\n            chicken.append([i, j])\ncombs = list(itertools.combinations(chicken, m))",
         "detail": "Coding_test.Chapter 12. 구현(完).13-2",
         "documentation": {}
     },
@@ -3041,7 +3295,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-2",
         "description": "Coding_test.Chapter 12. 구현(完).13-2",
-        "peekOfCode": "houses = []\nfor i in range(n):\n    data = list(map(int, input().split()))\n    for j in range(n):\n        if data[j] == 1:\n            houses.append([i,j])\n        if data[j] == 2:\n            chicken.append([i,j])\ncombs = list(itertools.combinations(chicken, m))\nmin_dist = 1e9",
+        "peekOfCode": "houses = []\nfor i in range(n):\n    data = list(map(int, input().split()))\n    for j in range(n):\n        if data[j] == 1:\n            houses.append([i, j])\n        if data[j] == 2:\n            chicken.append([i, j])\ncombs = list(itertools.combinations(chicken, m))\nmin_dist = 1e9",
         "detail": "Coding_test.Chapter 12. 구현(完).13-2",
         "documentation": {}
     },
@@ -3050,7 +3304,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-2",
         "description": "Coding_test.Chapter 12. 구현(完).13-2",
-        "peekOfCode": "combs = list(itertools.combinations(chicken, m))\nmin_dist = 1e9\nfor comb in combs:\n    dist = 0\n    for h in houses:\n        temp = []\n        for c in comb:\n            temp.append(abs(h[0]-c[0])+abs(h[1]-c[1]))\n        dist += min(temp)\n    if dist < min_dist:",
+        "peekOfCode": "combs = list(itertools.combinations(chicken, m))\nmin_dist = 1e9\nfor comb in combs:\n    dist = 0\n    for h in houses:\n        temp = []\n        for c in comb:\n            temp.append(abs(h[0] - c[0]) + abs(h[1] - c[1]))\n        dist += min(temp)\n    if dist < min_dist:",
         "detail": "Coding_test.Chapter 12. 구현(完).13-2",
         "documentation": {}
     },
@@ -3059,17 +3313,8 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-2",
         "description": "Coding_test.Chapter 12. 구현(完).13-2",
-        "peekOfCode": "min_dist = 1e9\nfor comb in combs:\n    dist = 0\n    for h in houses:\n        temp = []\n        for c in comb:\n            temp.append(abs(h[0]-c[0])+abs(h[1]-c[1]))\n        dist += min(temp)\n    if dist < min_dist:\n        min_dist = dist",
+        "peekOfCode": "min_dist = 1e9\nfor comb in combs:\n    dist = 0\n    for h in houses:\n        temp = []\n        for c in comb:\n            temp.append(abs(h[0] - c[0]) + abs(h[1] - c[1]))\n        dist += min(temp)\n    if dist < min_dist:\n        min_dist = dist",
         "detail": "Coding_test.Chapter 12. 구현(完).13-2",
-        "documentation": {}
-    },
-    {
-        "label": "n,m",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 12. 구현(完).13-3-best",
-        "description": "Coding_test.Chapter 12. 구현(完).13-3-best",
-        "peekOfCode": "n,m = map(int, input().split())\nchicken = []\nhome = []\nfor i in range(n):\n    array = list(map(int,input().split()))\n    for j in range(n):\n        if array[j] == 1:\n            home.append((i,j))\n        if array[j] == 2:\n            chicken.append((i,j))",
-        "detail": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "documentation": {}
     },
     {
@@ -3077,7 +3322,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).13-3-best",
-        "peekOfCode": "chicken = []\nhome = []\nfor i in range(n):\n    array = list(map(int,input().split()))\n    for j in range(n):\n        if array[j] == 1:\n            home.append((i,j))\n        if array[j] == 2:\n            chicken.append((i,j))\nmin_dist = 1e9",
+        "peekOfCode": "chicken = []\nhome = []\nfor i in range(n):\n    array = list(map(int, input().split()))\n    for j in range(n):\n        if array[j] == 1:\n            home.append((i, j))\n        if array[j] == 2:\n            chicken.append((i, j))\nmin_dist = 1e9",
         "detail": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "documentation": {}
     },
@@ -3086,7 +3331,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).13-3-best",
-        "peekOfCode": "home = []\nfor i in range(n):\n    array = list(map(int,input().split()))\n    for j in range(n):\n        if array[j] == 1:\n            home.append((i,j))\n        if array[j] == 2:\n            chicken.append((i,j))\nmin_dist = 1e9\nfor candidate in list(combinations(chicken, m)):",
+        "peekOfCode": "home = []\nfor i in range(n):\n    array = list(map(int, input().split()))\n    for j in range(n):\n        if array[j] == 1:\n            home.append((i, j))\n        if array[j] == 2:\n            chicken.append((i, j))\nmin_dist = 1e9\nfor candidate in list(combinations(chicken, m)):",
         "detail": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "documentation": {}
     },
@@ -3095,8 +3340,35 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 12. 구현(完).13-3-best",
         "description": "Coding_test.Chapter 12. 구현(完).13-3-best",
-        "peekOfCode": "min_dist = 1e9\nfor candidate in list(combinations(chicken, m)):\n    dist = 0\n    for c in candidate:\n        temp = []\n        for h in home:\n            temp.append(abs(c[0]-h[0]) + abs(c[1]-h[1]))\n        dist += min(temp)\n    min_dist = min(min_dist, dist)\nprint(dist)",
+        "peekOfCode": "min_dist = 1e9\nfor candidate in list(combinations(chicken, m)):\n    dist = 0\n    for c in candidate:\n        temp = []\n        for h in home:\n            temp.append(abs(c[0] - h[0]) + abs(c[1] - h[1]))\n        dist += min(temp)\n    min_dist = min(min_dist, dist)\nprint(dist)",
         "detail": "Coding_test.Chapter 12. 구현(完).13-3-best",
+        "documentation": {}
+    },
+    {
+        "label": "chicken",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).13-5",
+        "description": "Coding_test.Chapter 12. 구현(完).13-5",
+        "peekOfCode": "chicken = []\nhouses = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    for y in range(n):\n        if row[y] == 2:\n            chicken.append([x, y])\n        elif row[y] == 1:\n            houses.append([x, y])\nanswer = 1e9",
+        "detail": "Coding_test.Chapter 12. 구현(完).13-5",
+        "documentation": {}
+    },
+    {
+        "label": "houses",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).13-5",
+        "description": "Coding_test.Chapter 12. 구현(完).13-5",
+        "peekOfCode": "houses = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    for y in range(n):\n        if row[y] == 2:\n            chicken.append([x, y])\n        elif row[y] == 1:\n            houses.append([x, y])\nanswer = 1e9\nfor candidates in list(combinations(chicken, m)):",
+        "detail": "Coding_test.Chapter 12. 구현(完).13-5",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 12. 구현(完).13-5",
+        "description": "Coding_test.Chapter 12. 구현(完).13-5",
+        "peekOfCode": "answer = 1e9\nfor candidates in list(combinations(chicken, m)):\n    dist = 0\n    for c in candidates:\n        temp = []\n        for h in houses:\n            temp.append(abs(h[0] - c[0]) + abs(h[1] - c[1]))\n        dist += min(temp)\n    answer = min(answer, dist)\nprint(answer)",
+        "detail": "Coding_test.Chapter 12. 구현(完).13-5",
         "documentation": {}
     },
     {
@@ -3104,7 +3376,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).14-1-best",
         "description": "Coding_test.Chapter 12. 구현(完).14-1-best",
-        "peekOfCode": "def solution(n, weak, dist): #n: circumference, weak: weak point, dist: friends' dist per hour\n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i] + n)\n    answer = len(dist) + 1 # finding friend least num\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1\n            position = weak[start] + friends[count-1] # friend's end\n            for index in range(start, start+length):",
+        "peekOfCode": "def solution(\n    n, weak, dist\n):  # n: circumference, weak: weak point, dist: friends' dist per hour\n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i] + n)\n    answer = len(dist) + 1  # finding friend least num\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1",
         "detail": "Coding_test.Chapter 12. 구현(完).14-1-best",
         "documentation": {}
     },
@@ -3113,7 +3385,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).14-2",
         "description": "Coding_test.Chapter 12. 구현(完).14-2",
-        "peekOfCode": "def solution(n, weak, dist): \n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i]+n)\n    answer = len(dist) + 1 # finding friend at least num\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1\n            position = weak[start] + friends[count-1]\n            for index in range(start, start+length):",
+        "peekOfCode": "def solution(n, weak, dist):\n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i] + n)\n    answer = len(dist) + 1  # finding friend at least num\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1\n            position = weak[start] + friends[count - 1]\n            for index in range(start, start + length):",
         "detail": "Coding_test.Chapter 12. 구현(完).14-2",
         "documentation": {}
     },
@@ -3122,17 +3394,17 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 12. 구현(完).14-3",
         "description": "Coding_test.Chapter 12. 구현(完).14-3",
-        "peekOfCode": "def solution(n, weak, dist): \n    length=len(weak)\n    for i in range(length):\n        weak.append(weak[i]+n)\n    answer = len(dist) + 1\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1\n            position = weak[start] + friends[count-1]\n            for index in range(start, start+length):",
+        "peekOfCode": "def solution(n, weak, dist):\n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i] + n)\n    answer = len(dist) + 1\n    for start in range(length):\n        for friends in list(permutations(dist, len(dist))):\n            count = 1\n            position = weak[start] + friends[count - 1]\n            for index in range(start, start + length):",
         "detail": "Coding_test.Chapter 12. 구현(完).14-3",
         "documentation": {}
     },
     {
-        "label": "n,m,k,x",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "n,m,k,x = map(int, input().split())\ngraph = [[] for _ in range(n+1)]\nfor _ in range(m):\n    a,b = map(int, sys.stdin.readline().split())\n    graph[a].append(b)\ndistance = [-1] * (n+1)\ndistance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
+        "label": "solution",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 12. 구현(完).14-5",
+        "description": "Coding_test.Chapter 12. 구현(完).14-5",
+        "peekOfCode": "def solution(n, weak, dist):\n    length = len(weak)\n    for i in range(length):\n        weak.append(weak[i] + n)\n    answer = len(dist) + 1\n    for start in range(length):\n        count = 1\n        for friend in list(permutations(dist, len(dist))):\n            position = weak[start] + friend[count - 1]\n            for index in range(start, start + length):",
+        "detail": "Coding_test.Chapter 12. 구현(完).14-5",
         "documentation": {}
     },
     {
@@ -3140,7 +3412,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "graph = [[] for _ in range(n+1)]\nfor _ in range(m):\n    a,b = map(int, sys.stdin.readline().split())\n    graph[a].append(b)\ndistance = [-1] * (n+1)\ndistance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:",
+        "peekOfCode": "graph = [[] for _ in range(n + 1)]\nfor _ in range(m):\n    a, b = map(int, sys.stdin.readline().split())\n    graph[a].append(b)\ndistance = [-1] * (n + 1)\ndistance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "documentation": {}
     },
@@ -3149,7 +3421,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "distance = [-1] * (n+1)\ndistance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False",
+        "peekOfCode": "distance = [-1] * (n + 1)\ndistance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "documentation": {}
     },
@@ -3158,7 +3430,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "distance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False\nfor i in range(1,n+1):",
+        "peekOfCode": "distance[x] = 0\nqueue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False\nfor i in range(1, n + 1):",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "documentation": {}
     },
@@ -3167,7 +3439,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "queue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False\nfor i in range(1,n+1):\n    if distance[i] == k:",
+        "peekOfCode": "queue = deque([x])\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if distance[i] == -1:\n            distance[i] = distance[v] + 1\n            queue.append(i)\ncheck = False\nfor i in range(1, n + 1):\n    if distance[i] == k:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "documentation": {}
     },
@@ -3176,7 +3448,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-1",
-        "peekOfCode": "check = False\nfor i in range(1,n+1):\n    if distance[i] == k:\n        print(i)\n        check=True\nif not check:\n    print(-1)",
+        "peekOfCode": "check = False\nfor i in range(1, n + 1):\n    if distance[i] == k:\n        print(i)\n        check = True\nif not check:\n    print(-1)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-1",
         "documentation": {}
     },
@@ -3194,7 +3466,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-2",
-        "peekOfCode": "graph = [[] for _ in range(n+1)]\nfor _ in range(m):\n    a,b = map(int,input().split())\n    graph[a].append(b)\ndist = [-1] * (n+1)\ndef bfs(graph, start):\n    queue = deque([start])\n    dist[start] = 0\n    while queue:\n        v = queue.popleft()",
+        "peekOfCode": "graph = [[] for _ in range(n + 1)]\nfor _ in range(m):\n    a, b = map(int, input().split())\n    graph[a].append(b)\ndist = [-1] * (n + 1)\ndef bfs(graph, start):\n    queue = deque([start])\n    dist[start] = 0\n    while queue:\n        v = queue.popleft()",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-2",
         "documentation": {}
     },
@@ -3203,7 +3475,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-2",
-        "peekOfCode": "dist = [-1] * (n+1)\ndef bfs(graph, start):\n    queue = deque([start])\n    dist[start] = 0\n    while queue:\n        v = queue.popleft()\n        for i in graph[v]:\n            if dist[i] == -1:\n                queue.append(i)\n                dist[i] = dist[v] + 1",
+        "peekOfCode": "dist = [-1] * (n + 1)\ndef bfs(graph, start):\n    queue = deque([start])\n    dist[start] = 0\n    while queue:\n        v = queue.popleft()\n        for i in graph[v]:\n            if dist[i] == -1:\n                queue.append(i)\n                dist[i] = dist[v] + 1",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-2",
         "documentation": {}
     },
@@ -3212,17 +3484,8 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-2",
-        "peekOfCode": "check = False\nfor idx in range(1,n+1):\n    if dist[idx] == k:\n        print(idx)\n        check = True\nif not check:\n    print(-1)",
+        "peekOfCode": "check = False\nfor idx in range(1, n + 1):\n    if dist[idx] == k:\n        print(idx)\n        check = True\nif not check:\n    print(-1)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-2",
-        "documentation": {}
-    },
-    {
-        "label": "n,m,k,x",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "description": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "peekOfCode": "n,m,k,x = map(int, input().split())\ngraph = [[] for _ in range(n+1)]\nvisited = [1e9] * (n+1)\nfor _ in range(m):\n    a,b = map(int,input().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "documentation": {}
     },
     {
@@ -3230,7 +3493,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "peekOfCode": "graph = [[] for _ in range(n+1)]\nvisited = [1e9] * (n+1)\nfor _ in range(m):\n    a,b = map(int,input().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:",
+        "peekOfCode": "graph = [[] for _ in range(n + 1)]\nvisited = [1e9] * (n + 1)\nfor _ in range(m):\n    a, b = map(int, input().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "documentation": {}
     },
@@ -3239,7 +3502,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "peekOfCode": "visited = [1e9] * (n+1)\nfor _ in range(m):\n    a,b = map(int,input().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:",
+        "peekOfCode": "visited = [1e9] * (n + 1)\nfor _ in range(m):\n    a, b = map(int, input().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "documentation": {}
     },
@@ -3248,7 +3511,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "peekOfCode": "queue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[v]+1)\nif k in visited[1:]:\n    for i in range(1,n+1):",
+        "peekOfCode": "queue = deque([x])\nvisited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[v] + 1)\nif k in visited[1:]:\n    for i in range(1, n + 1):",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "documentation": {}
     },
@@ -3257,8 +3520,44 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
-        "peekOfCode": "visited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[v]+1)\nif k in visited[1:]:\n    for i in range(1,n+1):\n        if k == visited[i]:",
+        "peekOfCode": "visited[x] = 0\nwhile queue:\n    v = queue.popleft()\n    for i in graph[v]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[v] + 1)\nif k in visited[1:]:\n    for i in range(1, n + 1):\n        if k == visited[i]:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.15-3-best",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "peekOfCode": "graph = [[] for _ in range(n + 1)]\nfor _ in range(m):\n    a, b = map(int, sys.stdin.readline().split())\n    graph[a].append(b)\nqueue = deque([x])\nvisited = [1e9 for _ in range(n + 1)]\nvisited[x] = 0\nwhile queue:\n    x = queue.popleft()\n    for i in graph[x]:",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "documentation": {}
+    },
+    {
+        "label": "queue",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "peekOfCode": "queue = deque([x])\nvisited = [1e9 for _ in range(n + 1)]\nvisited[x] = 0\nwhile queue:\n    x = queue.popleft()\n    for i in graph[x]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[i] + 1)\nif k in visited[1:]:",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "documentation": {}
+    },
+    {
+        "label": "visited",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "peekOfCode": "visited = [1e9 for _ in range(n + 1)]\nvisited[x] = 0\nwhile queue:\n    x = queue.popleft()\n    for i in graph[x]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[i] + 1)\nif k in visited[1:]:\n    for i in range(1, n + 1):",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "documentation": {}
+    },
+    {
+        "label": "visited[x]",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.15-4",
+        "peekOfCode": "visited[x] = 0\nwhile queue:\n    x = queue.popleft()\n    for i in graph[x]:\n        if visited[i] == 1e9:\n            queue.append(i)\n            visited[i] = min(visited[i], visited[i] + 1)\nif k in visited[1:]:\n    for i in range(1, n + 1):\n        if visited[i] == k:",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.15-4",
         "documentation": {}
     },
     {
@@ -3266,7 +3565,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "def virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m: # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx,ny)\ndef get_score():\n    score = 0",
+        "peekOfCode": "def virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:  # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx, ny)\ndef get_score():\n    score = 0",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3284,16 +3583,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "def dfs(count):\n    global result\n    if count == 3:\n        for i in range(n):\n            for j in range(m):\n                temp[i][j] = data[i][j]\n        for i in range(n):\n            for j in range(m):\n                if temp[i][j] == 2:\n                    virus(i,j)",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "documentation": {}
-    },
-    {
-        "label": "n,m",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "n,m = map(int, input().split())\ndata = []\ntemp = [[0]*m for _ in range(n)]\nfor _ in range(n):\n    data.append(list(map(int, sys.stdin.readline().split())))\ndx = [-1,0,1,0] #좌 상 우 하 (시계 방향)\ndy = [0,1,0,-1]\nresult = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):",
+        "peekOfCode": "def dfs(count):\n    global result\n    if count == 3:\n        for i in range(n):\n            for j in range(m):\n                temp[i][j] = data[i][j]\n        for i in range(n):\n            for j in range(m):\n                if temp[i][j] == 2:\n                    virus(i, j)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3302,7 +3592,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "data = []\ntemp = [[0]*m for _ in range(n)]\nfor _ in range(n):\n    data.append(list(map(int, sys.stdin.readline().split())))\ndx = [-1,0,1,0] #좌 상 우 하 (시계 방향)\ndy = [0,1,0,-1]\nresult = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]",
+        "peekOfCode": "data = []\ntemp = [[0] * m for _ in range(n)]\nfor _ in range(n):\n    data.append(list(map(int, sys.stdin.readline().split())))\ndx = [-1, 0, 1, 0]  # 좌 상 우 하 (시계 방향)\ndy = [0, 1, 0, -1]\nresult = 0\ndef virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3311,7 +3601,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "temp = [[0]*m for _ in range(n)]\nfor _ in range(n):\n    data.append(list(map(int, sys.stdin.readline().split())))\ndx = [-1,0,1,0] #좌 상 우 하 (시계 방향)\ndy = [0,1,0,-1]\nresult = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
+        "peekOfCode": "temp = [[0] * m for _ in range(n)]\nfor _ in range(n):\n    data.append(list(map(int, sys.stdin.readline().split())))\ndx = [-1, 0, 1, 0]  # 좌 상 우 하 (시계 방향)\ndy = [0, 1, 0, -1]\nresult = 0\ndef virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3320,7 +3610,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "dx = [-1,0,1,0] #좌 상 우 하 (시계 방향)\ndy = [0,1,0,-1]\nresult = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m: # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1",
+        "peekOfCode": "dx = [-1, 0, 1, 0]  # 좌 상 우 하 (시계 방향)\ndy = [0, 1, 0, -1]\nresult = 0\ndef virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:  # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3329,7 +3619,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "dy = [0,1,0,-1]\nresult = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m: # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx,ny)",
+        "peekOfCode": "dy = [0, 1, 0, -1]\nresult = 0\ndef virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:  # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx, ny)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3338,7 +3628,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-1",
-        "peekOfCode": "result = 0\ndef virus(x,y): #오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m: # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx,ny)\ndef get_score():",
+        "peekOfCode": "result = 0\ndef virus(x, y):  # 오로지 바이러스 퍼트리는 가정 상황\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:  # inside the boundary\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 1\n                virus(nx, ny)\ndef get_score():",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-1",
         "documentation": {}
     },
@@ -3347,7 +3637,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "def simulate(temp, x,y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)\n    return temp\ndef count(temp):",
+        "peekOfCode": "def simulate(temp, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)\n    return temp\ndef count(temp):",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3361,20 +3651,11 @@
         "documentation": {}
     },
     {
-        "label": "n,m",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "n,m = map(int, input().split())\ndata = []\nwalls = []\nvirus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i,j))\n        if data[i][j] == 2:",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "documentation": {}
-    },
-    {
         "label": "data",
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "data = []\nwalls = []\nvirus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i,j))\n        if data[i][j] == 2:\n            virus.append((i,j))",
+        "peekOfCode": "data = []\nwalls = []\nvirus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i, j))\n        if data[i][j] == 2:\n            virus.append((i, j))",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3383,7 +3664,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "walls = []\nvirus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i,j))\n        if data[i][j] == 2:\n            virus.append((i,j))\ndx = [-1,0,1,0]",
+        "peekOfCode": "walls = []\nvirus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i, j))\n        if data[i][j] == 2:\n            virus.append((i, j))\ndx = [-1, 0, 1, 0]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3392,7 +3673,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "virus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i,j))\n        if data[i][j] == 2:\n            virus.append((i,j))\ndx = [-1,0,1,0]\ndy = [0,1,0,-1]",
+        "peekOfCode": "virus = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(m):\n        if data[i][j] == 0:\n            walls.append((i, j))\n        if data[i][j] == 2:\n            virus.append((i, j))\ndx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3401,7 +3682,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "dx = [-1,0,1,0]\ndy = [0,1,0,-1]\ncandidates = list(combinations(walls, 3))\ndef simulate(temp, x,y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\ncandidates = list(combinations(walls, 3))\ndef simulate(temp, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3410,7 +3691,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "dy = [0,1,0,-1]\ncandidates = list(combinations(walls, 3))\ndef simulate(temp, x,y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)",
+        "peekOfCode": "dy = [0, 1, 0, -1]\ncandidates = list(combinations(walls, 3))\ndef simulate(temp, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3419,7 +3700,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "candidates = list(combinations(walls, 3))\ndef simulate(temp, x,y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)\n    return temp",
+        "peekOfCode": "candidates = list(combinations(walls, 3))\ndef simulate(temp, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if temp[nx][ny] == 0:\n                temp[nx][ny] = 2\n                simulate(temp, nx, ny)\n    return temp",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3428,7 +3709,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-2",
-        "peekOfCode": "max_value = 0\nfor candidate in candidates:\n    temp = copy.deepcopy(data)\n    for c in list(candidate):\n        temp[c[0]][c[1]] = 1\n    for v in virus:\n        result = simulate(temp, v[0],v[1])\n    max_value = max(count(result), max_value)\nprint(max_value)",
+        "peekOfCode": "max_value = 0\nfor candidate in candidates:\n    temp = copy.deepcopy(data)\n    for c in list(candidate):\n        temp[c[0]][c[1]] = 1\n    for v in virus:\n        result = simulate(temp, v[0], v[1])\n    max_value = max(count(result), max_value)\nprint(max_value)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-2",
         "documentation": {}
     },
@@ -3446,7 +3727,7 @@
         "kind": 2,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "def simulate(lab, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0<=nx<n and 0<=ny<m:\n            if lab[nx][ny] == 0:\n                lab[nx][ny] = 2\n                simulate(lab, nx, ny)\n    return lab\nanswer = 0",
+        "peekOfCode": "def simulate(lab, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m:\n            if lab[nx][ny] == 0:\n                lab[nx][ny] = 2\n                simulate(lab, nx, ny)\n    return lab\nanswer = 0",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3455,7 +3736,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "lab = []\nvirus = []\nvacent = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i,j])\n        if lab[i][j] == 2:\n            virus.append([i,j])",
+        "peekOfCode": "lab = []\nvirus = []\nvacent = []\nfor i in range(n):\n    lab.append(list(map(int, input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i, j])\n        if lab[i][j] == 2:\n            virus.append([i, j])",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3464,7 +3745,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "virus = []\nvacent = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i,j])\n        if lab[i][j] == 2:\n            virus.append([i,j])\ncandidate = list(combinations(vacent, 3))",
+        "peekOfCode": "virus = []\nvacent = []\nfor i in range(n):\n    lab.append(list(map(int, input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i, j])\n        if lab[i][j] == 2:\n            virus.append([i, j])\ncandidate = list(combinations(vacent, 3))",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3473,7 +3754,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "vacent = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i,j])\n        if lab[i][j] == 2:\n            virus.append([i,j])\ncandidate = list(combinations(vacent, 3))\ndx = [-1,0,1,0]",
+        "peekOfCode": "vacent = []\nfor i in range(n):\n    lab.append(list(map(int, input().split())))\n    for j in range(m):\n        if lab[i][j] == 0:\n            vacent.append([i, j])\n        if lab[i][j] == 2:\n            virus.append([i, j])\ncandidate = list(combinations(vacent, 3))\ndx = [-1, 0, 1, 0]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3482,7 +3763,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "candidate = list(combinations(vacent, 3))\ndx = [-1,0,1,0]\ndy = [0,-1,0,1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count",
+        "peekOfCode": "candidate = list(combinations(vacent, 3))\ndx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3491,7 +3772,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "dx = [-1,0,1,0]\ndy = [0,-1,0,1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count\ndef simulate(lab, x, y):",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count\ndef simulate(lab, x, y):",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3500,7 +3781,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "dy = [0,-1,0,1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count\ndef simulate(lab, x, y):\n    for i in range(4):",
+        "peekOfCode": "dy = [0, -1, 0, 1]\ndef check(lab):\n    count = 0\n    for i in range(n):\n        for j in range(m):\n            if lab[i][j] == 0:\n                count += 1\n    return count\ndef simulate(lab, x, y):\n    for i in range(4):",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "documentation": {}
     },
@@ -3509,8 +3790,89 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
-        "peekOfCode": "answer = 0\nfor walls in candidate:\n    new_lab = deepcopy(lab)\n    for wall in list(walls):\n        new_lab[wall[0]][wall[1]] = 1\n    for v in virus:\n        new_lab = simulate(new_lab, v[0], v[1])\n    answer = max(answer, check(new_lab))  \nprint(answer)",
+        "peekOfCode": "answer = 0\nfor walls in candidate:\n    new_lab = deepcopy(lab)\n    for wall in list(walls):\n        new_lab[wall[0]][wall[1]] = 1\n    for v in virus:\n        new_lab = simulate(new_lab, v[0], v[1])\n    answer = max(answer, check(new_lab))\nprint(answer)",
         "detail": "Coding_test.Chapter 13. DFS-BFS.16-3-best",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "def check(lab):\n    count = 0\n    for x in range(n):\n        for y in range(m):\n            if lab[x][y] == 0:\n                count += 1\n    return count\ndx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\ndef simulate(lab, x, y):",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "simulate",
+        "kind": 2,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "def simulate(lab, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if lab[nx][ny] == 0:\n            lab[nx][ny] = 2\n            simulate(lab, nx, ny)\ncandidates = list(combinations(vacent, 3))\nanswer = 0\nfor walls in candidates:",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "lab",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "lab = []\nvirus = []\nvacent = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    for y in range(m):\n        if row[y] == 2:\n            virus.append((x, y))\ndef check(lab):\n    count = 0",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "virus",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "virus = []\nvacent = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    for y in range(m):\n        if row[y] == 2:\n            virus.append((x, y))\ndef check(lab):\n    count = 0\n    for x in range(n):",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "vacent",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "vacent = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    for y in range(m):\n        if row[y] == 2:\n            virus.append((x, y))\ndef check(lab):\n    count = 0\n    for x in range(n):\n        for y in range(m):",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\ndef simulate(lab, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if lab[nx][ny] == 0:\n            lab[nx][ny] = 2\n            simulate(lab, nx, ny)\ncandidates = list(combinations(vacent, 3))",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "dy",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "dy = [0, -1, 0, 1]\ndef simulate(lab, x, y):\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if lab[nx][ny] == 0:\n            lab[nx][ny] = 2\n            simulate(lab, nx, ny)\ncandidates = list(combinations(vacent, 3))\nanswer = 0",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "candidates",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "candidates = list(combinations(vacent, 3))\nanswer = 0\nfor walls in candidates:\n    new_lab = deepcopy(lab)\n    for x, y in walls:\n        new_lab[x][y] = 1\n    for x, y in virus:\n        simulate(new_lab, x, y)\n    answer = max(answer, check(new_lab))\nprint(answer)",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.16-4",
+        "peekOfCode": "answer = 0\nfor walls in candidates:\n    new_lab = deepcopy(lab)\n    for x, y in walls:\n        new_lab[x][y] = 1\n    for x, y in virus:\n        simulate(new_lab, x, y)\n    answer = max(answer, check(new_lab))\nprint(answer)",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.16-4",
         "documentation": {}
     },
     {
@@ -3518,7 +3880,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "peekOfCode": "graph = []\ndata = []\nfor i in range(n):\n    graph.append(list(map(int, sys.stdin.readline().split())))\n    for j in range(n):\n        if graph[i][j] != 0:\n            data.append((graph[i][j], 0, i, j))\ndata.sort()    \nq = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())",
+        "peekOfCode": "graph = []\ndata = []\nfor i in range(n):\n    graph.append(list(map(int, sys.stdin.readline().split())))\n    for j in range(n):\n        if graph[i][j] != 0:\n            data.append((graph[i][j], 0, i, j))\ndata.sort()\nq = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "documentation": {}
     },
@@ -3527,7 +3889,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "peekOfCode": "data = []\nfor i in range(n):\n    graph.append(list(map(int, sys.stdin.readline().split())))\n    for j in range(n):\n        if graph[i][j] != 0:\n            data.append((graph[i][j], 0, i, j))\ndata.sort()    \nq = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]",
+        "peekOfCode": "data = []\nfor i in range(n):\n    graph.append(list(map(int, sys.stdin.readline().split())))\n    for j in range(n):\n        if graph[i][j] != 0:\n            data.append((graph[i][j], 0, i, j))\ndata.sort()\nq = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "documentation": {}
     },
@@ -3536,7 +3898,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "peekOfCode": "q = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break \n    for i in range(4):\n        nx = x + dx[i]",
+        "peekOfCode": "q = deque(data)\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "documentation": {}
     },
@@ -3545,7 +3907,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break \n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "documentation": {}
     },
@@ -3554,17 +3916,8 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-1",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "peekOfCode": "dy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break \n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:\n            if graph[nx][ny] == 0:",
+        "peekOfCode": "dy = [0, 1, 0, -1]\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:\n            if graph[nx][ny] == 0:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-1",
-        "documentation": {}
-    },
-    {
-        "label": "n,k",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "n,k = map(int, input().split())\ndata = []\nstart = []\nfor i in range(n): \n    data.append(list(map(int,input().split())))\n    for j in range(n):\n        if data[i][j] != 0:\n            start.append((data[i][j],0,i,j))\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "documentation": {}
     },
     {
@@ -3572,7 +3925,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "data = []\nstart = []\nfor i in range(n): \n    data.append(list(map(int,input().split())))\n    for j in range(n):\n        if data[i][j] != 0:\n            start.append((data[i][j],0,i,j))\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]",
+        "peekOfCode": "data = []\nstart = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(n):\n        if data[i][j] != 0:\n            start.append((data[i][j], 0, i, j))\nstart.sort()\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "documentation": {}
     },
@@ -3581,16 +3934,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "start = []\nfor i in range(n): \n    data.append(list(map(int,input().split())))\n    for j in range(n):\n        if data[i][j] != 0:\n            start.append((data[i][j],0,i,j))\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]\ndy = [0,1,0,-1]",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "documentation": {}
-    },
-    {
-        "label": "target_s,target_x,target_y",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "target_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]\ndy = [0,1,0,-1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]",
+        "peekOfCode": "start = []\nfor i in range(n):\n    data.append(list(map(int, input().split())))\n    for j in range(n):\n        if data[i][j] != 0:\n            start.append((data[i][j], 0, i, j))\nstart.sort()\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "documentation": {}
     },
@@ -3599,7 +3943,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "dx = [-1,0,1,0]\ndy = [0,1,0,-1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, 1, 0, -1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "documentation": {}
     },
@@ -3608,7 +3952,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-2",
-        "peekOfCode": "dy = [0,1,0,-1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:",
+        "peekOfCode": "dy = [0, 1, 0, -1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-2",
         "documentation": {}
     },
@@ -3622,20 +3966,11 @@
         "documentation": {}
     },
     {
-        "label": "n,k",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "n,k = map(int, input().split())\nlab = []\nstart = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(n):\n        if lab[i][j] != 0:\n            start.append([lab[i][j],0,i,j])\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "documentation": {}
-    },
-    {
         "label": "lab",
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "lab = []\nstart = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(n):\n        if lab[i][j] != 0:\n            start.append([lab[i][j],0,i,j])\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]",
+        "peekOfCode": "lab = []\nstart = []\nfor i in range(n):\n    lab.append(list(map(int, input().split())))\n    for j in range(n):\n        if lab[i][j] != 0:\n            start.append([lab[i][j], 0, i, j])\nstart.sort()\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "documentation": {}
     },
@@ -3644,16 +3979,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "start = []\nfor i in range(n):\n    lab.append(list(map(int,input().split())))\n    for j in range(n):\n        if lab[i][j] != 0:\n            start.append([lab[i][j],0,i,j])\nstart.sort()\ntarget_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]\ndy = [0,-1,0,1]",
-        "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "documentation": {}
-    },
-    {
-        "label": "target_s,target_x,target_y",
-        "kind": 5,
-        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "target_s,target_x,target_y = map(int,input().split())\ndx = [-1,0,1,0]\ndy = [0,-1,0,1]\nq = deque(start)\nwhile q:\n    virus,s,x,y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]",
+        "peekOfCode": "start = []\nfor i in range(n):\n    lab.append(list(map(int, input().split())))\n    for j in range(n):\n        if lab[i][j] != 0:\n            start.append([lab[i][j], 0, i, j])\nstart.sort()\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "documentation": {}
     },
@@ -3662,7 +3988,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "dx = [-1,0,1,0]\ndy = [0,-1,0,1]\nq = deque(start)\nwhile q:\n    virus,s,x,y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "documentation": {}
     },
@@ -3671,7 +3997,7 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "dy = [0,-1,0,1]\nq = deque(start)\nwhile q:\n    virus,s,x,y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0<=nx<n and 0<=ny<n and lab[nx][ny] == 0:",
+        "peekOfCode": "dy = [0, -1, 0, 1]\nq = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n and lab[nx][ny] == 0:",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "documentation": {}
     },
@@ -3680,8 +4006,53 @@
         "kind": 5,
         "importPath": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
         "description": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
-        "peekOfCode": "q = deque(start)\nwhile q:\n    virus,s,x,y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0<=nx<n and 0<=ny<n and lab[nx][ny] == 0:\n            lab[nx][ny] = virus",
+        "peekOfCode": "q = deque(start)\nwhile q:\n    virus, s, x, y = q.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n and lab[nx][ny] == 0:\n            lab[nx][ny] = virus",
         "detail": "Coding_test.Chapter 13. DFS-BFS.17-3-best",
+        "documentation": {}
+    },
+    {
+        "label": "lab",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "peekOfCode": "lab = []\nvirus = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    lab.append(row)\n    for y in range(n):\n        if row[y] != 0:\n            virus.append([row[y], 0, x, y])\nvirus.sort()\ntarget_s, target_x, target_y = map(int, input().split())",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "documentation": {}
+    },
+    {
+        "label": "virus",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "peekOfCode": "virus = []\nfor x in range(n):\n    row = list(map(int, input().split()))\n    lab.append(row)\n    for y in range(n):\n        if row[y] != 0:\n            virus.append([row[y], 0, x, y])\nvirus.sort()\ntarget_s, target_x, target_y = map(int, input().split())\ndx = [-1, 0, 1, 0]",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "peekOfCode": "dx = [-1, 0, 1, 0]\ndy = [0, -1, 0, 1]\nqueue = deque(virus)\nwhile True:\n    v, s, x, y = queue.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "documentation": {}
+    },
+    {
+        "label": "dy",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "peekOfCode": "dy = [0, -1, 0, 1]\nqueue = deque(virus)\nwhile True:\n    v, s, x, y = queue.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n and lab[nx][ny] == 0:",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "documentation": {}
+    },
+    {
+        "label": "queue",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "description": "Coding_test.Chapter 13. DFS-BFS.17-4",
+        "peekOfCode": "queue = deque(virus)\nwhile True:\n    v, s, x, y = queue.popleft()\n    if s == target_s:\n        break\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < n and lab[nx][ny] == 0:\n            lab[nx][ny] = s",
+        "detail": "Coding_test.Chapter 13. DFS-BFS.17-4",
         "documentation": {}
     },
     {
@@ -4933,6 +5304,33 @@
         "description": "Coding_test.Chapter 14. 정렬(完).26-4",
         "peekOfCode": "answer = 0\nwhile q:\n    a = heapq.heappop()\n    try:\n        b = heapq.heappop()\n        heapq.heappush(q, (a + b))\n        cards.append(a + b)\n    except:\n        pass\nprint(sum(cards))",
         "detail": "Coding_test.Chapter 14. 정렬(完).26-4",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "peekOfCode": "n = int(input())\nq = []\ntotal = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))",
+        "detail": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "peekOfCode": "q = []\ntotal = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))\n        total.append(a + b)",
+        "detail": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "documentation": {}
+    },
+    {
+        "label": "total",
+        "kind": 5,
+        "importPath": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "description": "Coding_test.Chapter 14. 정렬(完).26-5",
+        "peekOfCode": "total = []\nfor _ in range(n):\n    heapq.heappush(q, int(input()))\nwhile q:\n    a = heapq.heappop(q)\n    try:\n        b = heapq.heappop(q)\n        heapq.heappush(q, (a + b))\n        total.append(a + b)\n    except:",
+        "detail": "Coding_test.Chapter 14. 정렬(完).26-5",
         "documentation": {}
     },
     {

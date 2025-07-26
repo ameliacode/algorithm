@@ -6,17 +6,16 @@ def solution(n, weak, dist):
     for i in range(length):
         weak.append(weak[i] + n)
     answer = len(dist) + 1
-
     for start in range(length):
-        for friends in list(permutations(dist, len(dist))):
-            count = 1
-            position = weak[start] + friends[count - 1]
+        count = 1
+        for friend in list(permutations(dist, len(dist))):
+            position = weak[start] + friend[count - 1]
             for index in range(start, start + length):
                 if position < weak[index]:
                     count += 1
                     if count > len(dist):
                         break
-                    position = weak[index] + friends[count - 1]
+                    position = weak[index] + friend[count - 1]
             answer = min(answer, count)
     if answer > len(dist):
         return -1

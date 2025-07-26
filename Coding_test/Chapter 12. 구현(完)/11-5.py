@@ -1,11 +1,9 @@
 n = int(input())
 k = int(input())
 
-new_board = [[0] * (n + 1) for _ in range(n + 1)]
-
+apples = []
 for _ in range(k):
-    x, y = map(int, input().split())
-    new_board[x][y] = 1
+    apples.append(list(map(int, input().split())))
 
 l = int(input())
 control = {}
@@ -13,7 +11,14 @@ for _ in range(l):
     x, c = input().split()
     control[int(x)] = c
 
-dx = [0, 1, 0, -1]
+new_board = [[0] * (n + 1) for _ in range(n + 1)]
+
+for _ in range(k):
+    x, y = map(int, input().split())
+    new_board[x][y] = 1
+
+
+dx = [0, 1, 0, -1]  # 문제 해결 point
 dy = [1, 0, -1, 0]
 
 
