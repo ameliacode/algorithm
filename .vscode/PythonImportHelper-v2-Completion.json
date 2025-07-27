@@ -168,15 +168,6 @@
         "documentation": {}
     },
     {
-        "label": "heapq",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "heapq",
-        "description": "heapq",
-        "detail": "heapq",
-        "documentation": {}
-    },
-    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -186,12 +177,12 @@
         "documentation": {}
     },
     {
-        "label": "math",
+        "label": "heapq",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
         "documentation": {}
     },
     {
@@ -276,6 +267,22 @@
         "documentation": {}
     },
     {
+        "label": "combinations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "combinations",
+        "importPath": "itertools",
+        "description": "itertools",
+        "isExtraImport": true,
+        "detail": "itertools",
+        "documentation": {}
+    },
+    {
         "label": "permutations",
         "importPath": "itertools",
         "description": "itertools",
@@ -361,6 +368,15 @@
         "description": "itertools",
         "isExtraImport": true,
         "detail": "itertools",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -519,6 +535,24 @@
         "documentation": {}
     },
     {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Baekjoon.1009",
+        "description": "Baekjoon.1009",
+        "peekOfCode": "t = int(input())\nfor _ in range(t):\n    a, b = map(int, input().split())\n    answer = 1\n    for _ in range(b):\n        answer = (answer * a) % 10\n    if answer == 0:\n        print(10)\n    else:\n        print(answer)",
+        "detail": "Baekjoon.1009",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Baekjoon.1010",
+        "description": "Baekjoon.1010",
+        "peekOfCode": "t = int(input())\nfor _ in range(t):\n    n, m = map(int, input().split())\n    numerator = 1\n    for i in range(m, max(m - n, n), -1):\n        numerator *= i\n    denominator = 1\n    for i in range(min(m - n, n), 0, -1):\n        denominator *= i\n    answer = numerator // denominator",
+        "detail": "Baekjoon.1010",
+        "documentation": {}
+    },
+    {
         "label": "data",
         "kind": 5,
         "importPath": "Baekjoon.10798",
@@ -615,6 +649,60 @@
         "description": "Baekjoon.1100",
         "peekOfCode": "answer = 0\nfor i in range(8):\n    for j in range(8):\n        if (i + j) % 2 == 0 and chess[i][j] == \"F\":\n            answer += 1\nprint(answer)",
         "detail": "Baekjoon.1100",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Baekjoon.11674",
+        "description": "Baekjoon.11674",
+        "peekOfCode": "s = input()\nx = 0\ny = 0\nfor i in range(len(s)):\n    x = 2 * x\n    y = 2 * y\n    if s[i] == \"0\":\n        pass\n    if s[i] == \"1\":\n        x += 1",
+        "detail": "Baekjoon.11674",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Baekjoon.11674",
+        "description": "Baekjoon.11674",
+        "peekOfCode": "x = 0\ny = 0\nfor i in range(len(s)):\n    x = 2 * x\n    y = 2 * y\n    if s[i] == \"0\":\n        pass\n    if s[i] == \"1\":\n        x += 1\n    if s[i] == \"2\":",
+        "detail": "Baekjoon.11674",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Baekjoon.11674",
+        "description": "Baekjoon.11674",
+        "peekOfCode": "y = 0\nfor i in range(len(s)):\n    x = 2 * x\n    y = 2 * y\n    if s[i] == \"0\":\n        pass\n    if s[i] == \"1\":\n        x += 1\n    if s[i] == \"2\":\n        y += 1",
+        "detail": "Baekjoon.11674",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "Baekjoon.1357",
+        "description": "Baekjoon.1357",
+        "peekOfCode": "x = int(x[::-1])\ny = int(y[::-1])\nanswer = int(str(x + y)[::-1])\nprint(answer)",
+        "detail": "Baekjoon.1357",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Baekjoon.1357",
+        "description": "Baekjoon.1357",
+        "peekOfCode": "y = int(y[::-1])\nanswer = int(str(x + y)[::-1])\nprint(answer)",
+        "detail": "Baekjoon.1357",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.1357",
+        "description": "Baekjoon.1357",
+        "peekOfCode": "answer = int(str(x + y)[::-1])\nprint(answer)",
+        "detail": "Baekjoon.1357",
         "documentation": {}
     },
     {
@@ -732,6 +820,15 @@
         "description": "Baekjoon.2178",
         "peekOfCode": "answer = 0\nwhile q:\n    x, y = q.popleft()\n    for i in range(4):\n        nx = x + dx[i]\n        ny = y + dy[i]\n        if 0 <= nx < n and 0 <= ny < m and graph[nx][ny] == 1:\n            graph[nx][ny] = graph[x][y] + 1\n            q.append((nx, ny))\nprint(graph[n - 1][m - 1])",
         "detail": "Baekjoon.2178",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Baekjoon.23913",
+        "description": "Baekjoon.23913",
+        "peekOfCode": "t = int(input())\nfor case in range(t):\n    n = int(input())\n    array = list(map(int, sys.stdin.readline().split()))\n    answer = 2\n    count = 2\n    for i in range(2, len(array)):\n        if array[i - 2] - array[i - 1] == array[i - 1] - array[i]:\n            count += 1\n        else:",
+        "detail": "Baekjoon.23913",
         "documentation": {}
     },
     {
@@ -888,6 +985,42 @@
         "documentation": {}
     },
     {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Baekjoon.27592",
+        "description": "Baekjoon.27592",
+        "peekOfCode": "a = list(map(int, sys.stdin.readline().split()))\nb = list(map(int, sys.stdin.readline().split()))\nanswer = 0\nweight = 0\nfor i in range(n):\n    weight += b[i]\n    if weight < a[i]:\n        answer = -1\n        break\nif answer != -1:",
+        "detail": "Baekjoon.27592",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Baekjoon.27592",
+        "description": "Baekjoon.27592",
+        "peekOfCode": "b = list(map(int, sys.stdin.readline().split()))\nanswer = 0\nweight = 0\nfor i in range(n):\n    weight += b[i]\n    if weight < a[i]:\n        answer = -1\n        break\nif answer != -1:\n    answer = (weight - a[n - 1]) // x",
+        "detail": "Baekjoon.27592",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.27592",
+        "description": "Baekjoon.27592",
+        "peekOfCode": "answer = 0\nweight = 0\nfor i in range(n):\n    weight += b[i]\n    if weight < a[i]:\n        answer = -1\n        break\nif answer != -1:\n    answer = (weight - a[n - 1]) // x\nprint(answer)",
+        "detail": "Baekjoon.27592",
+        "documentation": {}
+    },
+    {
+        "label": "weight",
+        "kind": 5,
+        "importPath": "Baekjoon.27592",
+        "description": "Baekjoon.27592",
+        "peekOfCode": "weight = 0\nfor i in range(n):\n    weight += b[i]\n    if weight < a[i]:\n        answer = -1\n        break\nif answer != -1:\n    answer = (weight - a[n - 1]) // x\nprint(answer)",
+        "detail": "Baekjoon.27592",
+        "documentation": {}
+    },
+    {
         "label": "s",
         "kind": 5,
         "importPath": "Baekjoon.27866",
@@ -933,6 +1066,33 @@
         "documentation": {}
     },
     {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.32172",
+        "description": "Baekjoon.32172",
+        "peekOfCode": "n = int(input())\narray = []\narray.append(0)\nfor i in range(1, n + 1):\n    a = array[i - 1] - i\n    if a < 0 or a in array:\n        array.append(array[i - 1] + i)\n    else:\n        array.append(a)\nprint(array[n])",
+        "detail": "Baekjoon.32172",
+        "documentation": {}
+    },
+    {
+        "label": "array",
+        "kind": 5,
+        "importPath": "Baekjoon.32172",
+        "description": "Baekjoon.32172",
+        "peekOfCode": "array = []\narray.append(0)\nfor i in range(1, n + 1):\n    a = array[i - 1] - i\n    if a < 0 or a in array:\n        array.append(array[i - 1] + i)\n    else:\n        array.append(a)\nprint(array[n])",
+        "detail": "Baekjoon.32172",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.32384",
+        "description": "Baekjoon.32384",
+        "peekOfCode": "n = int(input())\nfor _ in range(n):\n    print(\"LoveisKoreaUniversity\", end=\" \")",
+        "detail": "Baekjoon.32384",
+        "documentation": {}
+    },
+    {
         "label": "t",
         "kind": 5,
         "importPath": "Baekjoon.5052",
@@ -948,6 +1108,96 @@
         "description": "Baekjoon.5597",
         "peekOfCode": "student = []\nfor _ in range(28):\n    student.append(int(input()))\nfor i in range(1, 31):\n    if not i in student:\n        print(i)",
         "detail": "Baekjoon.5597",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "Baekjoon.6603",
+        "description": "Baekjoon.6603",
+        "peekOfCode": "data = []\nwhile True:\n    var = list(map(int, input().split()))\n    if var[0] == 0:\n        break\n    k = var[0]\n    s = var[1:]\n    for candidate in list(combinations(s, 6)):\n        for c in candidate:\n            print(c, end=\" \")",
+        "detail": "Baekjoon.6603",
+        "documentation": {}
+    },
+    {
+        "label": "possible",
+        "kind": 2,
+        "importPath": "Baekjoon.9663",
+        "description": "Baekjoon.9663",
+        "peekOfCode": "def possible(chess, x, y):\n    pass",
+        "detail": "Baekjoon.9663",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Baekjoon.9663",
+        "description": "Baekjoon.9663",
+        "peekOfCode": "n = int(input())\nchess = [[0] * n for _ in range(n)]\ndx = [-1, 0, 1, 0, -1, 1, -1, 1]\ndy = [0, -1, 0, 1, -1, 1, 1, -1]\ndef possible(chess, x, y):\n    pass",
+        "detail": "Baekjoon.9663",
+        "documentation": {}
+    },
+    {
+        "label": "chess",
+        "kind": 5,
+        "importPath": "Baekjoon.9663",
+        "description": "Baekjoon.9663",
+        "peekOfCode": "chess = [[0] * n for _ in range(n)]\ndx = [-1, 0, 1, 0, -1, 1, -1, 1]\ndy = [0, -1, 0, 1, -1, 1, 1, -1]\ndef possible(chess, x, y):\n    pass",
+        "detail": "Baekjoon.9663",
+        "documentation": {}
+    },
+    {
+        "label": "dx",
+        "kind": 5,
+        "importPath": "Baekjoon.9663",
+        "description": "Baekjoon.9663",
+        "peekOfCode": "dx = [-1, 0, 1, 0, -1, 1, -1, 1]\ndy = [0, -1, 0, 1, -1, 1, 1, -1]\ndef possible(chess, x, y):\n    pass",
+        "detail": "Baekjoon.9663",
+        "documentation": {}
+    },
+    {
+        "label": "dy",
+        "kind": 5,
+        "importPath": "Baekjoon.9663",
+        "description": "Baekjoon.9663",
+        "peekOfCode": "dy = [0, -1, 0, 1, -1, 1, 1, -1]\ndef possible(chess, x, y):\n    pass",
+        "detail": "Baekjoon.9663",
+        "documentation": {}
+    },
+    {
+        "label": "recurrent",
+        "kind": 2,
+        "importPath": "Baekjoon.9882",
+        "description": "Baekjoon.9882",
+        "peekOfCode": "def recurrent(sum_val, idx, count, team, min_skill, max_skill):\n    global answer\n    if team == 4:\n        answer = min(answer, max_skill - min_skill)\n        return\n    if count == 3:\n        new_min = min(sum_val, min_skill)\n        new_max = max(sum_val, max_skill)\n        recurrent(0, 0, 0, team + 1, new_min, new_max)\n        return",
+        "detail": "Baekjoon.9882",
+        "documentation": {}
+    },
+    {
+        "label": "cows",
+        "kind": 5,
+        "importPath": "Baekjoon.9882",
+        "description": "Baekjoon.9882",
+        "peekOfCode": "cows = []\nfor _ in range(12):\n    cows.append(int(input()))\ncows.sort()\nanswer = float(\"inf\")\nvisited = [False] * 12\ndef recurrent(sum_val, idx, count, team, min_skill, max_skill):\n    global answer\n    if team == 4:\n        answer = min(answer, max_skill - min_skill)",
+        "detail": "Baekjoon.9882",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "Baekjoon.9882",
+        "description": "Baekjoon.9882",
+        "peekOfCode": "answer = float(\"inf\")\nvisited = [False] * 12\ndef recurrent(sum_val, idx, count, team, min_skill, max_skill):\n    global answer\n    if team == 4:\n        answer = min(answer, max_skill - min_skill)\n        return\n    if count == 3:\n        new_min = min(sum_val, min_skill)\n        new_max = max(sum_val, max_skill)",
+        "detail": "Baekjoon.9882",
+        "documentation": {}
+    },
+    {
+        "label": "visited",
+        "kind": 5,
+        "importPath": "Baekjoon.9882",
+        "description": "Baekjoon.9882",
+        "peekOfCode": "visited = [False] * 12\ndef recurrent(sum_val, idx, count, team, min_skill, max_skill):\n    global answer\n    if team == 4:\n        answer = min(answer, max_skill - min_skill)\n        return\n    if count == 3:\n        new_min = min(sum_val, min_skill)\n        new_max = max(sum_val, max_skill)\n        recurrent(0, 0, 0, team + 1, new_min, new_max)",
+        "detail": "Baekjoon.9882",
         "documentation": {}
     },
     {
