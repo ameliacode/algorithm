@@ -12,18 +12,18 @@ start = array[1] - array[0]
 end = array[-1] - array[0]
 result = 0
 
-while(start <= end):
-    mid = (start+end) // 2 # gap
+while start <= end:
+    mid = (start + end) // 2  # gap
     value = array[0]
     count = 1
-    for i in range(1,n):
-        if array[i] >= value+mid:
+    for i in range(1, n):
+        if array[i] >= value + mid:
             value = array[i]
             count += 1
     if count >= c:
         start = mid + 1
         result = mid
     else:
-        end = mid -1
+        end = mid - 1
 
 print(result)

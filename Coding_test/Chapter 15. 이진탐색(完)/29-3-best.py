@@ -8,11 +8,11 @@ start = array[1] - array[0]
 end = array[-1] - array[0]
 
 while start <= end:
-    mid = (start+end) // 2
+    mid = (start + end) // 2
     value = array[0]
     count = 1
     for i in range(len(array)):
-        if value+mid <= array[i]:
+        if value + mid <= array[i]:
             count += 1
             value = array[i]
     if count >= c:

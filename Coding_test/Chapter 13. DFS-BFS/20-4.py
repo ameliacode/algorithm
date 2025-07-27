@@ -5,44 +5,45 @@ n = int(input())
 
 hall = []
 teachers = []
-candidates = []
+vacent = []
 
 for i in range(n):
-    hall.append(list(map(int, input().split())))
+    row = list(input().split())
     for j in range(n):
-        if hall[i][j] == "X":
-            candidates.append((i, j))
-        if hall[i][j] == "T":
+        if row[j] == "X":
+            vacent.append((i, j))
+        if row[j] == "T":
             teachers.append((i, j))
+    hall.append(row)
 
 
-def watch(x, y, i, temp):  # i as direction
-    if i == 0:  # 상
+def watch(x, y, i, hall):
+    if i == 0:  # up
         while x >= 0:
-            if temp[x][y] == "S":
+            if hall[x][y] == "S":
                 return True
-            elif temp[x][y] == "O":
+            elif hall[x][y] == "O":
                 return False
             x -= 1
-    if i == 1:  # 하
+    if i == 1:  # down
         while x < n:
-            if temp[x][y] == "S":
+            if hall[x][y] == "S":
                 return True
-            elif temp[x][y] == "O":
+            elif hall[x][y] == "O":
                 return False
             x += 1
-    if i == 2:  # 좌
+    if i == 2:  # left
         while y >= 0:
-            if temp[x][y] == "S":
+            if hall[x][y] == "S":
                 return True
-            elif temp[x][y] == "O":
+            elif hall[x][y] == "O":
                 return False
             y -= 1
-    if i == 3:  # 우
+    if i == 3:  # right
         while y < n:
-            if temp[x][y] == "S":
+            if hall[x][y] == "S":
                 return True
-            elif temp[x][y] == "O":
+            elif hall[x][y] == "O":
                 return False
             y += 1
 
@@ -51,16 +52,16 @@ def process(hall):
     for x, y in teachers:
         for i in range(4):
             if watch(x, y, i, hall):
-                return True
-    return False
+                return False
+    return True  # checkmate
 
 
 result = False
-for candidate in list(combinations(candidates, 3)):
-    temp = deepcopy(hall)
-    for c in list(candidate):
-        temp[c[0]][c[1]] = "O"
-    if not process(temp):
+for candidates in list(combinations(vacent, 3)):
+    new_hall = deepcopy(hall)
+    for x, y in candidates:
+        new_hall[x][y] = "O"
+    if process(new_hall):
         result = True
         break
 

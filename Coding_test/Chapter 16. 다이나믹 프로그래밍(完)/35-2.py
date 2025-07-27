@@ -4,9 +4,9 @@ ugly = [0] * n
 ugly[0] = 1
 
 idx2 = idx3 = idx5 = 0
-next2, next3, next5 = 2,3,5
+next2, next3, next5 = 2, 3, 5
 
-for idx in range(1,n):
+for idx in range(1, n):
     ugly[idx] = min(next2, next3, next5)
     if ugly[idx] == next2:
         idx2 += 1

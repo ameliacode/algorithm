@@ -6,7 +6,7 @@ array = list(map(int, input().split()))
 left = bisect_left(array, m)
 right = bisect_right(array, m)
 
-if (right-left):
-    print(right-left)
+if right - left:
+    print(right - left)
 else:
     print(-1)

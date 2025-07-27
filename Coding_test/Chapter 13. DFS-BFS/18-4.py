@@ -1,3 +1,6 @@
+p = input()
+
+
 def balance_index(p):
     count = 0
     for i in range(len(p)):
@@ -5,14 +8,15 @@ def balance_index(p):
             count += 1
         else:
             count -= 1
+
         if count == 0:
             return i
 
 
 def check_proper(p):
     count = 0
-    for i in p:
-        if i == "(":
+    for i in range(len(p)):
+        if p[i] == "(":
             count += 1
         else:
             if count == 0:
@@ -23,10 +27,12 @@ def check_proper(p):
 
 def solution(p):
     if p == "":
-        return ""
+        return p
+
     index = balance_index(p)
     u = p[: index + 1]
     v = p[index + 1 :]
+
     if check_proper(u):
         answer = u + solution(v)
     else:
@@ -35,9 +41,9 @@ def solution(p):
         answer += ")"
         u = list(u[1:-1])
         for i in range(len(u)):
-            if p[i] == "(":
-                p[i] = ")"
+            if u[i] == "(":
+                u[i] = ")"
             else:
-                p[i] = "("
+                u[i] = "("
         answer += "".join(u)
     return answer
